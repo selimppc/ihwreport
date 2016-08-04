@@ -1,0 +1,691 @@
+Searching 1795 files for "Selim Reza"
+
+/Users/selimreza/Desktop/half-way/docs/components.html:
+    5  
+    6  	<head>
+    7: 		<title>Selim Reza - Components</title>
+    8  		
+    9  		<!-- BEGIN META -->
+   ..
+  257  	<h1 id="icon" class="page-header">Icons</h1>
+  258  	<p class="lead">
+  259: 		In addition to the standard <a class="btn-link" href="http://getbootstrap.com/components/#glyphicons" target="blank">Bootstrap icons <span class="glyphicon glyphicon-link"></span></a>, Selim Reza has several additional options.
+  260  	</p>
+  261  	
+  ...
+  302  	<h1 id="dropdown" class="page-header">Dropdowns</h1>
+  303  	<p class="lead">
+  304: 		In addition to the standard <a class="btn-link" href="http://getbootstrap.com/components/#dropdowns" target="blank">Bootstrap dropdowns <span class="glyphicon glyphicon-link"></span></a>, Selim Reza has several additional options.
+  305  	</p>
+  306  	
+  ...
+  498  	<h1 id="buttons" class="page-header">Buttons</h1>
+  499  	<p class="lead">
+  500: 		In addition to the standard <a class="btn-link" href="http://getbootstrap.com/css/#buttons" target="blank">Bootstrap buttons <span class="glyphicon glyphicon-link"></span></a>, Selim Reza has several additional options.
+  501  	</p>
+  502  	
+  ...
+  822  	<h1 id="badges" class="page-header">Badges</h1>
+  823  	<p class="lead">
+  824: 		In addition to the standard <a class="btn-link" href="http://getbootstrap.com/components/#badges" target="blank">Bootstrap badges <span class="glyphicon glyphicon-link"></span></a>, Selim Reza has several additional options.
+  825  	</p>
+  826  	
+  ...
+  933  	<h1 id="lists" class="page-header">Lists</h1>
+  934  	<p class="lead">
+  935: 		In addition to the standard <a class="btn-link" href="http://getbootstrap.com/components/#list-group" target="blank">Bootstrap lists <span class="glyphicon glyphicon-link"></span></a>, Selim Reza has several additional options.
+  936  	</p>
+  937  	
+  ...
+ 1188  	<h1 id="tabs" class="page-header">Tabs</h1>
+ 1189  	<p class="lead">
+ 1190: 		In addition to the standard <a class="btn-link" href="http://getbootstrap.com/components/#nav-tabs" target="blank">Bootstrap tabs <span class="glyphicon glyphicon-link"></span></a>, Selim Reza has several additional options.
+ 1191  	</p>
+ 1192  	
+ ....
+ 2081  	<h3 id="timeline-responsive">Responsive</h3>
+ 2082  	<p>
+ 2083: 		Selim Reza has a responsive timeline.
+ 2084  		To add responsiveness to your timeline, you can add one of the folowing classes: <code>.collapse-xs</code>, <code>.collapse-sm</code>, <code>.collapse-md</code> or <code>.collapse-lg</code>.
+ 2085  	</p>
+
+/Users/selimreza/Desktop/half-way/docs/css.html:
+    5  
+    6  	<head>
+    7: 		<title>Selim Reza - CSS</title>
+    8  		
+    9  		<!-- BEGIN META -->
+   ..
+  576  	<h1 id="type" class="page-header">Typography</h1>
+  577  	<p class="lead">
+  578: 		In addition to the standard <a class="btn-link" href="http://getbootstrap.com/css/#type" target="blank">Bootstrap typography <span class="glyphicon glyphicon-link"></span></a>, Selim Reza has several additional options.
+  579  	</p>
+  580  	
+  ...
+  828  	<h1 id="tables" class="page-header">Tables</h1>
+  829  	<p class="lead">
+  830: 		In addition to the standard <a class="btn-link" href="http://getbootstrap.com/css/#tables" target="blank">Bootstrap tables <span class="glyphicon glyphicon-link"></span></a>, Selim Reza has several additional options.
+  831  	</p>
+  832  	
+  ...
+  949  	<h1 id="forms" class="page-header">Forms</h1>
+  950  	<p class="lead">
+  951: 		In addition to the standard <a class="btn-link" href="http://getbootstrap.com/css/#forms" target="blank">Bootstrap forms <span class="glyphicon glyphicon-link"></span></a>, Selim Reza has several additional options.
+  952  	</p>
+  953  	
+  ...
+ 1124  	<h1 id="buttons" class="page-header">Buttons</h1>
+ 1125  	<p class="lead">
+ 1126: 		In addition to the standard <a class="btn-link" href="http://getbootstrap.com/css/#buttons" target="blank">Bootstrap buttons <span class="glyphicon glyphicon-link"></span></a>, Selim Reza has several additional options.
+ 1127  	</p>
+ 1128  	
+ ....
+ 1181  	<h3 id="buttons-styles" class="text-danger-alt">Button styles</h3>
+ 1182  	<p>
+ 1183: 		Selim Reza has 3 types of buttons: The default style, the raised button and the flat button.<br/>
+ 1184  	</p>
+ 1185  	<div class="card card-outlined style-default-light">
+ ....
+ 1254  	<h1 id="images" class="page-header">Images</h1>
+ 1255  	<p class="lead">
+ 1256: 		In addition to the standard <a class="btn-link" href="http://getbootstrap.com/css/#images" target="blank">Bootstrap images <span class="glyphicon glyphicon-link"></span></a>, Selim Reza has several additional options.
+ 1257  	</p>
+ 1258  	
+ ....
+ 1301  	<h1 id="helper" class="page-header">Helper classes</h1>
+ 1302  	<p class="lead">
+ 1303: 		In addition to the standard <a class="btn-link" href="http://getbootstrap.com/css/#helper-classes" target="blank">Bootstrap helper classes <span class="glyphicon glyphicon-link"></span></a>, Selim Reza has several additional options.
+ 1304  	</p>
+ 1305  	
+
+/Users/selimreza/Desktop/half-way/docs/getting-start.html:
+    5  
+    6  	<head>
+    7: 		<title>Selim Reza - Getting started</title>
+    8  		
+    9  		<!-- BEGIN META -->
+   ..
+   74  
+   75  	<p>
+   76: 		Selim Reza requires a few CSS and Javascript imports.
+   77  		Copy the code below to get you started on your project. 
+   78  	</p>
+   79  	<pre class="prettyprint">&lt;html lang=&quot;en&quot;&gt;
+   80  	&lt;head&gt;
+   81: 		&lt;title&gt;Selim Reza&lt;/title&gt;
+   82  
+   83  		&lt;!-- BEGIN META --&gt;
+   ..
+  120  	<h3 id="general-body">Body</h3>
+  121  	<p>
+  122: 		Selim Reza has a fluid layout with a main navigation, header and an off-canvas on the left and right.
+  123  		Every html element is located in the <code>#base</code> tag, except for the <code>&lt;header&gt;</code>.<br/>
+  124  		The <code>#base</code> elements shoud be placed in the following sequence.
+  ...
+  229  	<p>
+  230  		Every main menu item can contain a submenu. 
+  231: 		Visually Selim Reza will indent the submenus and add tree lines up to 5 levels deep.
+  232  	</p>
+  233  	<p>
+  ...
+  353  	<h3 id="less-html">HTML</h3>
+  354  	<p>
+  355: 		The .less files for Selim Reza have the following structure:
+  356  	</p>
+  357  	<pre class="prettyprint">materialadmin/
+  ...
+  364          │   └── ...
+  365          ├── materialadmin/
+  366:         │   ├── // Selim Reza less files
+  367          │   └── ...
+  368          ├── libs/
+  ...
+  404  	<h4>Extensive modifications</h4>
+  405  	<p>
+  406: 		Selim Reza has kept the Bootstrap .less files original.
+  407  		This way you can update Bootstrap easily.
+  408  		Therefore it's recommended not to change the files located in <code>/materialadmin/assets/less/bootstrap/</code>.<br/>
+  ...
+  429  	<h1 id="credits-stucture" class="page-header">Credits</h1>
+  430  	<p class="lead">
+  431: 		Selim Reza uses the following images, .less files and javascript files as listed:
+  432  	</p>
+  433  	
+
+/Users/selimreza/Desktop/half-way/docs/javascript-forms.html:
+    5  
+    6  	<head>
+    7: 		<title>Selim Reza - JavaScript forms</title>
+    8  		
+    9  		<!-- BEGIN META -->
+
+/Users/selimreza/Desktop/half-way/docs/javascript.html:
+    5  
+    6  	<head>
+    7: 		<title>Selim Reza - JavaScript</title>
+    8  		
+    9  		<!-- BEGIN META -->
+   ..
+  302  		This code must be executed after the page has loaded the Javascript libraries.<br/>
+  303  		The best way to do this, is with jQuery's <code>$(document).ready</code>.
+  304: 		You can create your own implementation or use the example code provided by Selim Reza which can be located in:<br/>
+  305  	</p>
+  306  	<pre class="prettyprint">&lt;script src=&quot;materialadmin/assets/js/core/demo/DemoTableDynamic.js&quot;&gt;&lt;/script&gt;
+  ...
+  340  	<p>
+  341  		DataTables has many options that can be found in their <a class="btn-link" href="https://datatables.net" target="blank">documentation <span class="glyphicon glyphicon-link"></span></a>.
+  342: 		Selim Reza has provided extra options for the DataTables that are described below.
+  343  	</p>
+  344  	
+  ...
+  374  		There are a number of extras for DataTables.
+  375  		<a class="btn-link" href="https://datatables.net/extensions/tabletools/" target="blank">TableTools <span class="glyphicon glyphicon-link"></span></a> is one of these extras.
+  376: 		Selim Reza has provided a stylesheet for the TableTools.
+  377  	</p>
+  378  	<pre class="prettyprint">&lt;link type=&quot;text/css&quot; rel=&quot;stylesheet&quot; href=&quot;assets/css/theme-default/libs/DataTables/extensions/dataTables.tableTools.css&quot;&gt;
+  ...
+  388  	<p>
+  389  		<a class="btn-link" href="https://datatables.net/extensions/colvis/" target="blank">ColVis <span class="glyphicon glyphicon-link"></span></a> is another one of these extras.
+  390: 		Selim Reza has provided a stylesheet for ColVis.
+  391  	</p>
+  392  	<pre class="prettyprint">&lt;link type=&quot;text/css&quot; rel=&quot;stylesheet&quot; href=&quot;assets/css/theme-default/libs/DataTables/extensions/dataTables.colVis.css&quot;&gt;
+  ...
+  557  		This code must be executed after the page has loaded the Javascript libraries.<br/>
+  558  		The best way to do this, is with jQuery's <code>$(document).ready</code>.
+  559: 		You can create your own implementation or use the example code provided by Selim Reza which can be located in:<br/>
+  560  	</p>
+  561  	<pre class="prettyprint">&lt;script src=&quot;materialadmin/assets/js/core/demo/DemoCalendar.js&quot;&gt;&lt;/script&gt;
+  ...
+  623  	<h3 id="knob-option">Options</h3>
+  624  	<p>
+  625: 		Selim Reza provides ready made classes so you can easily style the knob charts.
+  626  		You only need to put the <code>&lt;input&gt;</code> element inside a <code>.knob</code> class.
+  627  		Then you can add the following classes to the <code>.knob</code> class:
+  ...
+  813  	<h3 id="nanoscroll-example">Example</h3>
+  814  	<p>
+  815: 		nanoScroller is integrated in Selim Reza. 
+  816  		You just have to add the class <code>.scroll</code> to an element, restrict it's height, and nanoScroll will be added.
+  817  	</p>
+  ...
+  904  		This code must be executed after the page has loaded the Javascript libraries.<br/>
+  905  		The best way to do this, is with jQuery's <code>$(document).ready</code>.
+  906: 		You can create your own implementation or use the example code provided by Selim Reza which can be located in:<br/>
+  907  	</p>
+  908  	<pre class="prettyprint">&lt;script src=&quot;materialadmin/assets/js/core/demo/DemoUILists.js&quot;&gt;&lt;/script&gt;
+  ...
+  913  	<p>
+  914  		The Javascript is tied to an element in the body of your page.<br/>
+  915: 		Selim Reza made some adjustments, so you can use the <code>.btn</code> class inside the Nestable list.
+  916  		This way you can use the available button classes to style your list.
+  917  	</p>
+  ...
+ 1110  		This code must be executed after the page has loaded the Javascript libraries.<br/>
+ 1111  		The best way to do this, is with jQuery's <code>$(document).ready</code>.
+ 1112: 		You can create your own implementation or use the example code provided by Selim Reza which can be located in:<br/>
+ 1113  	</p>
+ 1114  	<pre class="prettyprint">&lt;script src=&quot;materialadmin/assets/js/core/demo/DemoUIMessages.js&quot;&gt;&lt;/script&gt;
+
+/Users/selimreza/Desktop/half-way/html/charts/charts.html:
+  256  									<p>
+  257  										Knob charts are a downward compatible, touchable, jQuery dial.
+  258: 										Selim Reza has added serveral classes for easy styling with theme colors.
+  259  									</p>
+  260  								</article>
+
+/Users/selimreza/Desktop/half-way/html/dashboards/dashboard.html:
+   38  							<div class="brand-holder">
+   39  								<a href="../../html/dashboards/dashboard.html">
+   40: 									<span class="text-lg text-bold text-primary">Selim Reza</span>
+   41  								</a>
+   42  							</div>
+
+/Users/selimreza/Desktop/half-way/html/forms/advanced.html:
+   44  							<div class="brand-holder">
+   45  								<a href="../../html/dashboards/dashboard.html">
+   46: 									<span class="text-lg text-bold text-primary">Selim Reza</span>
+   47  								</a>
+   48  							</div>
+   ..
+  187  									<p class="lead">
+  188  										When you are developing an Admin Template, it's always handy to have more than the standard toolset the browser gives you.
+  189: 										That's why Selim Reza provides advanced components styled to fit well inside the Material Design philosophy.
+  190  									</p>
+  191  								</article>
+
+/Users/selimreza/Desktop/half-way/html/forms/basic.html:
+   36  							<div class="brand-holder">
+   37  								<a href="../../html/dashboards/dashboard.html">
+   38: 									<span class="text-lg text-bold text-primary">Selim Reza</span>
+   39  								</a>
+   40  							</div>
+   ..
+  425  								<article class="margin-bottom-xxl">
+  426  									<p>
+  427: 										Selim Reza includes validation styles for error, warning, and success states on form controls.
+  428  									</p>
+  429  								</article>
+
+/Users/selimreza/Desktop/half-way/html/forms/editors.html:
+   37  							<div class="brand-holder">
+   38  								<a href="../../html/dashboards/dashboard.html">
+   39: 									<span class="text-lg text-bold text-primary">Selim Reza</span>
+   40  								</a>
+   41  							</div>
+
+/Users/selimreza/Desktop/half-way/html/forms/layouts.html:
+   36  							<div class="brand-holder">
+   37  								<a href="../../html/dashboards/dashboard.html">
+   38: 									<span class="text-lg text-bold text-primary">Selim Reza</span>
+   39  								</a>
+   40  							</div>
+   ..
+  178  								<article class="margin-bottom-xxl">
+  179  									<p class="lead">
+  180: 										Selim Reza uses by default a vertical form layout.
+  181  										In a vertical form the label is placed above the input field.
+  182  									</p>
+  ...
+  435  								<article class="margin-bottom-xxl">
+  436  									<p class="lead">
+  437: 										Of course Selim Reza also has a horizontal layout.
+  438  										In this layout, the label is on the left side of the field.
+  439  										The label is right-aligned so that the relationship between the field and the tag is immediately visible.
+
+/Users/selimreza/Desktop/half-way/html/forms/validation.html:
+   36  							<div class="brand-holder">
+   37  								<a href="../../html/dashboards/dashboard.html">
+   38: 									<span class="text-lg text-bold text-primary">Selim Reza</span>
+   39  								</a>
+   40  							</div>
+
+/Users/selimreza/Desktop/half-way/html/forms/wizard.html:
+   37  							<div class="brand-holder">
+   38  								<a href="../../html/dashboards/dashboard.html">
+   39: 									<span class="text-lg text-bold text-primary">Selim Reza</span>
+   40  								</a>
+   41  							</div>
+
+/Users/selimreza/Desktop/half-way/html/layouts/builder.html:
+   36  							<div class="brand-holder">
+   37  								<a href="../../html/dashboards/dashboard.html">
+   38: 									<span class="text-lg text-bold text-primary">Selim Reza</span>
+   39  								</a>
+   40  							</div>
+   ..
+  180  								<article class="margin-bottom-xxl">
+  181  									<p class="lead">
+  182: 										Selim Reza has several layout options that can be used for different purposes.
+  183  										You can either choose between a full-width header or a full-height menubar.
+  184  									</p>
+
+/Users/selimreza/Desktop/half-way/html/mail/compose.html:
+   37  							<div class="brand-holder">
+   38  								<a href="../../html/dashboards/dashboard.html">
+   39: 									<span class="text-lg text-bold text-primary">Selim Reza</span>
+   40  								</a>
+   41  							</div>
+
+/Users/selimreza/Desktop/half-way/html/mail/inbox.html:
+   36  							<div class="brand-holder">
+   37  								<a href="../../html/dashboards/dashboard.html">
+   38: 									<span class="text-lg text-bold text-primary">Selim Reza</span>
+   39  								</a>
+   40  							</div>
+
+/Users/selimreza/Desktop/half-way/html/mail/message.html:
+   36  							<div class="brand-holder">
+   37  								<a href="../../html/dashboards/dashboard.html">
+   38: 									<span class="text-lg text-bold text-primary">Selim Reza</span>
+   39  								</a>
+   40  							</div>
+
+/Users/selimreza/Desktop/half-way/html/mail/reply.html:
+   37  							<div class="brand-holder">
+   38  								<a href="../../html/dashboards/dashboard.html">
+   39: 									<span class="text-lg text-bold text-primary">Selim Reza</span>
+   40  								</a>
+   41  							</div>
+
+/Users/selimreza/Desktop/half-way/html/pages/404.html:
+   36  							<div class="brand-holder">
+   37  								<a href="../../html/dashboards/dashboard.html">
+   38: 									<span class="text-lg text-bold text-primary">Selim Reza</span>
+   39  								</a>
+   40  							</div>
+
+/Users/selimreza/Desktop/half-way/html/pages/500.html:
+   36  							<div class="brand-holder">
+   37  								<a href="../../html/dashboards/dashboard.html">
+   38: 									<span class="text-lg text-bold text-primary">Selim Reza</span>
+   39  								</a>
+   40  							</div>
+
+/Users/selimreza/Desktop/half-way/html/pages/blank.html:
+   36  							<div class="brand-holder">
+   37  								<a href="../../html/dashboards/dashboard.html">
+   38: 									<span class="text-lg text-bold text-primary">Selim Reza</span>
+   39  								</a>
+   40  							</div>
+
+/Users/selimreza/Desktop/half-way/html/pages/blog/list.html:
+   36  							<div class="brand-holder">
+   37  								<a href="../../../html/dashboards/dashboard.html">
+   38: 									<span class="text-lg text-bold text-primary">Selim Reza</span>
+   39  								</a>
+   40  							</div>
+
+/Users/selimreza/Desktop/half-way/html/pages/blog/masonry.html:
+   36  							<div class="brand-holder">
+   37  								<a href="../../../html/dashboards/dashboard.html">
+   38: 									<span class="text-lg text-bold text-primary">Selim Reza</span>
+   39  								</a>
+   40  							</div>
+
+/Users/selimreza/Desktop/half-way/html/pages/blog/post.html:
+   36  							<div class="brand-holder">
+   37  								<a href="../../../html/dashboards/dashboard.html">
+   38: 									<span class="text-lg text-bold text-primary">Selim Reza</span>
+   39  								</a>
+   40  							</div>
+
+/Users/selimreza/Desktop/half-way/html/pages/calendar.html:
+   38  							<div class="brand-holder">
+   39  								<a href="../../html/dashboards/dashboard.html">
+   40: 									<span class="text-lg text-bold text-primary">Selim Reza</span>
+   41  								</a>
+   42  							</div>
+
+/Users/selimreza/Desktop/half-way/html/pages/contacts/add.html:
+   38  							<div class="brand-holder">
+   39  								<a href="../../../html/dashboards/dashboard.html">
+   40: 									<span class="text-lg text-bold text-primary">Selim Reza</span>
+   41  								</a>
+   42  							</div>
+
+/Users/selimreza/Desktop/half-way/html/pages/contacts/details.html:
+   37  							<div class="brand-holder">
+   38  								<a href="../../../html/dashboards/dashboard.html">
+   39: 									<span class="text-lg text-bold text-primary">Selim Reza</span>
+   40  								</a>
+   41  							</div>
+
+/Users/selimreza/Desktop/half-way/html/pages/contacts/search.html:
+   38  							<div class="brand-holder">
+   39  								<a href="../../../html/dashboards/dashboard.html">
+   40: 									<span class="text-lg text-bold text-primary">Selim Reza</span>
+   41  								</a>
+   42  							</div>
+
+/Users/selimreza/Desktop/half-way/html/pages/invoice.html:
+   37  							<div class="brand-holder">
+   38  								<a href="../../html/dashboards/dashboard.html">
+   39: 									<span class="text-lg text-bold text-primary">Selim Reza</span>
+   40  								</a>
+   41  							</div>
+
+/Users/selimreza/Desktop/half-way/html/pages/login.html:
+   36  						<div class="col-sm-6">
+   37  							<br/>
+   38: 							<span class="text-lg text-bold text-primary">Selim Reza</span>
+   39  							<br/><br/>
+   40  							<form class="form floating-label" action="../../html/dashboards/dashboard.html" accept-charset="utf-8" method="post">
+
+/Users/selimreza/Desktop/half-way/html/pages/maps.html:
+   36  							<div class="brand-holder">
+   37  								<a href="../../html/dashboards/dashboard.html">
+   38: 									<span class="text-lg text-bold text-primary">Selim Reza</span>
+   39  								</a>
+   40  							</div>
+
+/Users/selimreza/Desktop/half-way/html/pages/pricing.html:
+   36  							<div class="brand-holder">
+   37  								<a href="../../html/dashboards/dashboard.html">
+   38: 									<span class="text-lg text-bold text-primary">Selim Reza</span>
+   39  								</a>
+   40  							</div>
+
+/Users/selimreza/Desktop/half-way/html/pages/profile.html:
+   36  							<div class="brand-holder">
+   37  								<a href="../../html/dashboards/dashboard.html">
+   38: 									<span class="text-lg text-bold text-primary">Selim Reza</span>
+   39  								</a>
+   40  							</div>
+
+/Users/selimreza/Desktop/half-way/html/pages/search/results-text-image.html:
+   38  							<div class="brand-holder">
+   39  								<a href="../../../html/dashboards/dashboard.html">
+   40: 									<span class="text-lg text-bold text-primary">Selim Reza</span>
+   41  								</a>
+   42  							</div>
+   ..
+  229  													<img class="pull-left width-3" src="../../../assets/img/img11.jpg?1403934955" alt="" />
+  230  													<p>
+  231: 														<a class="text-medium text-lg text-primary" href="#">Selim Reza search results</a><br/>
+  232  														<a class="opacity-75" href="#">http://www.codecovers.eu/search</a>
+  233  													</p>
+  ...
+  239  													<img class="pull-left width-3" src="../../../assets/img/img12.jpg?1403934955" alt="" />
+  240  													<p>
+  241: 														<a class="text-medium text-lg text-primary" href="#">Selim Reza search text results</a><br/>
+  242  														<a class="opacity-75" href="#">http://www.codecovers.eu/search/text</a>
+  243  													</p>
+  ...
+  249  													<img class="pull-left width-3" src="../../../assets/img/img13.jpg?1403934955" alt="" />
+  250  													<p>
+  251: 														<a class="text-medium text-lg text-primary" href="#">Other Selim Reza result with a longer title</a><br/>
+  252  														<a class="opacity-75" href="#">http://www.codecovers.eu/result</a> &nbsp;
+  253  														<span class="star-rating text-xs" data-toggle="tooltip" data-placement="bottom" data-original-title="Page rating">
+
+/Users/selimreza/Desktop/half-way/html/pages/search/results-text.html:
+   38  							<div class="brand-holder">
+   39  								<a href="../../../html/dashboards/dashboard.html">
+   40: 									<span class="text-lg text-bold text-primary">Selim Reza</span>
+   41  								</a>
+   42  							</div>
+   ..
+  228  												<div class="col-xs-12">
+  229  													<p>
+  230: 														<a class="text-medium text-lg text-primary" href="#">Selim Reza search results</a><br/>
+  231  														<a class="opacity-75" href="#">http://www.codecovers.eu/search</a>
+  232  													</p>
+  ...
+  237  												<div class="col-xs-12">
+  238  													<p>
+  239: 														<a class="text-medium text-lg text-primary" href="#">Selim Reza search text results</a><br/>
+  240  														<a class="opacity-75" href="#">http://www.codecovers.eu/search/text</a>
+  241  													</p>
+  ...
+  246  												<div class="col-xs-12">
+  247  													<p>
+  248: 														<a class="text-medium text-lg text-primary" href="#">Other Selim Reza result with a longer title</a><br/>
+  249  														<a class="opacity-75" href="#">http://www.codecovers.eu/result</a> &nbsp;
+  250  														<span class="star-rating text-xs" data-toggle="tooltip" data-placement="bottom" data-original-title="Page rating">
+
+/Users/selimreza/Desktop/half-way/html/pages/timeline.html:
+   36  							<div class="brand-holder">
+   37  								<a href="../../html/dashboards/dashboard.html">
+   38: 									<span class="text-lg text-bold text-primary">Selim Reza</span>
+   39  								</a>
+   40  							</div>
+
+/Users/selimreza/Desktop/half-way/html/tables/dynamic.html:
+   39  							<div class="brand-holder">
+   40  								<a href="../../html/dashboards/dashboard.html">
+   41: 									<span class="text-lg text-bold text-primary">Selim Reza</span>
+   42  								</a>
+   43  							</div>
+
+/Users/selimreza/Desktop/half-way/html/tables/responsive.html:
+   36  							<div class="brand-holder">
+   37  								<a href="../../html/dashboards/dashboard.html">
+   38: 									<span class="text-lg text-bold text-primary">Selim Reza</span>
+   39  								</a>
+   40  							</div>
+
+/Users/selimreza/Desktop/half-way/html/tables/static.html:
+   36  							<div class="brand-holder">
+   37  								<a href="../../html/dashboards/dashboard.html">
+   38: 									<span class="text-lg text-bold text-primary">Selim Reza</span>
+   39  								</a>
+   40  							</div>
+
+/Users/selimreza/Desktop/half-way/html/ui/accordions.html:
+   36  							<div class="brand-holder">
+   37  								<a href="../../html/dashboards/dashboard.html">
+   38: 									<span class="text-lg text-bold text-primary">Selim Reza</span>
+   39  								</a>
+   40  							</div>
+
+/Users/selimreza/Desktop/half-way/html/ui/buttons.html:
+   36  							<div class="brand-holder">
+   37  								<a href="../../html/dashboards/dashboard.html">
+   38: 									<span class="text-lg text-bold text-primary">Selim Reza</span>
+   39  								</a>
+   40  							</div>
+
+/Users/selimreza/Desktop/half-way/html/ui/cards.html:
+   36  							<div class="brand-holder">
+   37  								<a href="../../html/dashboards/dashboard.html">
+   38: 									<span class="text-lg text-bold text-primary">Selim Reza</span>
+   39  								</a>
+   40  							</div>
+
+/Users/selimreza/Desktop/half-way/html/ui/colors.html:
+   36  							<div class="brand-holder">
+   37  								<a href="../../html/dashboards/dashboard.html">
+   38: 									<span class="text-lg text-bold text-primary">Selim Reza</span>
+   39  								</a>
+   40  							</div>
+   ..
+  180  										Each company has its own corporate colors.
+  181  										An admin template should be able to display these colors.
+  182: 										Selim Reza is built so that you can easily apply your own custom colors.
+  183  									</p>
+  184  								</article>
+  ...
+  203  								<article class="margin-bottom-xxl">
+  204  									<p>
+  205: 										By default, Selim Reza has 6 color schemes.
+  206  										These color schemes are easy to make and you can also use them as a model for your own color scheme.
+  207  									</p>
+  ...
+  392  								<article class="margin-bottom-xxl">
+  393  									<p>
+  394: 										Selim Reza has four basic colors.
+  395  										These colors form the basis on which the admin template can be built.
+  396  									</p>
+
+/Users/selimreza/Desktop/half-way/html/ui/grid.html:
+   36  							<div class="brand-holder">
+   37  								<a href="../../html/dashboards/dashboard.html">
+   38: 									<span class="text-lg text-bold text-primary">Selim Reza</span>
+   39  								</a>
+   40  							</div>
+
+/Users/selimreza/Desktop/half-way/html/ui/icons/fontawesome.html:
+    2  <html lang="en">
+    3  	<head>
+    4: 		<title>Selim Reza - Font Awesome</title>
+    5  
+    6  		<!-- BEGIN META -->
+    .
+   37  							<div class="brand-holder">
+   38  								<a href="../../../html/dashboards/dashboard.html">
+   39: 									<span class="text-lg text-bold text-primary">Selim Reza</span>
+   40  								</a>
+   41  							</div>
+
+/Users/selimreza/Desktop/half-way/html/ui/icons/glyphicons.html:
+    2  <html lang="en">
+    3  	<head>
+    4: 		<title>Selim Reza - Glyphicons</title>
+    5  
+    6  		<!-- BEGIN META -->
+    .
+   37  							<div class="brand-holder">
+   38  								<a href="../../../html/dashboards/dashboard.html">
+   39: 									<span class="text-lg text-bold text-primary">Selim Reza</span>
+   40  								</a>
+   41  							</div>
+
+/Users/selimreza/Desktop/half-way/html/ui/icons/materialicons.html:
+    2  <html lang="en">
+    3  	<head>
+    4: 		<title>Selim Reza - Material Design Iconic Font</title>
+    5  
+    6  		<!-- BEGIN META -->
+    .
+   37  							<div class="brand-holder">
+   38  								<a href="../../../html/dashboards/dashboard.html">
+   39: 									<span class="text-lg text-bold text-primary">Selim Reza</span>
+   40  								</a>
+   41  							</div>
+
+/Users/selimreza/Desktop/half-way/html/ui/icons/skycons.html:
+    2  <html lang="en">
+    3  	<head>
+    4: 		<title>Selim Reza - Glyphicons</title>
+    5  
+    6  		<!-- BEGIN META -->
+    .
+   36  							<div class="brand-holder">
+   37  								<a href="../../../html/dashboards/dashboard.html">
+   38: 									<span class="text-lg text-bold text-primary">Selim Reza</span>
+   39  								</a>
+   40  							</div>
+
+/Users/selimreza/Desktop/half-way/html/ui/lists.html:
+   38  							<div class="brand-holder">
+   39  								<a href="../../html/dashboards/dashboard.html">
+   40: 									<span class="text-lg text-bold text-primary">Selim Reza</span>
+   41  								</a>
+   42  							</div>
+
+/Users/selimreza/Desktop/half-way/html/ui/messages.html:
+   37  							<div class="brand-holder">
+   38  								<a href="../../html/dashboards/dashboard.html">
+   39: 									<span class="text-lg text-bold text-primary">Selim Reza</span>
+   40  								</a>
+   41  							</div>
+   ..
+  179  								<article class="margin-bottom-xxl">
+  180  									<p class="lead">
+  181: 										With Selim Reza, there are various ways to notify the user.
+  182  									</p>
+  183  								</article>
+
+/Users/selimreza/Desktop/half-way/html/ui/offcanvas.html:
+   36  							<div class="brand-holder">
+   37  								<a href="../../html/dashboards/dashboard.html">
+   38: 									<span class="text-lg text-bold text-primary">Selim Reza</span>
+   39  								</a>
+   40  							</div>
+   ..
+  263  									<p>
+  264  										An off-canvas can have any size.
+  265: 										Selim Reza has a number of standard sizes you can choose, but you can also set the width in a style attribute for easy customization.
+  266  									</p>
+  267  								</article>
+
+/Users/selimreza/Desktop/half-way/html/ui/tabs.html:
+   36  							<div class="brand-holder">
+   37  								<a href="../../html/dashboards/dashboard.html">
+   38: 									<span class="text-lg text-bold text-primary">Selim Reza</span>
+   39  								</a>
+   40  							</div>
+
+/Users/selimreza/Desktop/half-way/html/ui/typography.html:
+   36  							<div class="brand-holder">
+   37  								<a href="../../html/dashboards/dashboard.html">
+   38: 									<span class="text-lg text-bold text-primary">Selim Reza</span>
+   39  								</a>
+   40  							</div>
+   ..
+  178  								<article class="margin-bottom-xxl">
+  179  									<p class="lead">
+  180: 										Selim Reza uses Roboto as the standard typeface.
+  181  										Roboto has been refined extensively to work across the wider set of supported platforms.
+  182  										It is slightly wider and rounder, giving it greater clarity and making it more optimistic.
+
+106 matches across 53 files
