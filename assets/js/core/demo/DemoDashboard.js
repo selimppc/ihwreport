@@ -47,7 +47,7 @@
 			options.width = '100%';
 			options.height = $('.sparkline-revenue').height() + 'px';
 			options.fillColor = false;
-			$('.sparkline-revenue').sparkline(points, options);
+			/*$('.sparkline-revenue').sparkline(points, options);*/
 		});
 
 		materialadmin.App.callOnResize(function () {
@@ -61,7 +61,7 @@
 			options.barSpacing = spacing;
 			options.height = $('.sparkline-visits').height() + 'px';
 			options.fillColor = false;
-			$('.sparkline-visits').sparkline(points, options);
+			/*$('.sparkline-visits').sparkline(points, options);*/
 		});
 	};
 	

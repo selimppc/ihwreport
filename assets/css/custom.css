@@ -1,0 +1,14 @@
+.login-title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 50px;
+    font-family: FontAwesome;
+}
+
+.login-user input{
+    text-align: center;
+}
+.login-password input{
+    text-align: center;
+}
