@@ -10,9 +10,11 @@ function drawChart() {
         ['Sleep',    7]
     ]);
 
+
     var options = {
         title: 'My Daily Activities',
         pieHole: 0.4,
+
     };
 
     var chart = new google.visualization.PieChart(document.getElementById('donutchart'));
