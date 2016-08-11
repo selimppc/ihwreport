@@ -82,7 +82,7 @@
 		// Chart data
 		var data = [
 			{
-				label: 'Pageviews',
+				label: '2013',
 				data: [
 					[moment().subtract(168, 'hours').valueOf(), 50],
 					[moment().subtract(144, 'hours').valueOf(), 620],
@@ -95,7 +95,7 @@
 				last: true
 			},
 			{
-				label: 'Visitors',
+				label: '2016',
 				data: [
 					[moment().subtract(168, 'hours').valueOf(), 50],
 					[moment().subtract(155, 'hours').valueOf(), 520],
