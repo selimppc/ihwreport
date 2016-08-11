@@ -84,12 +84,17 @@
 			{
 				label: '2013',
 				data: [
-					[moment().subtract(168, 'hours').valueOf(), 50],
-					[moment().subtract(144, 'hours').valueOf(), 620],
-					[moment().subtract(108, 'hours').valueOf(), 380],
-					[moment().subtract(70, 'hours').valueOf(), 880],
-					[moment().subtract(30, 'hours').valueOf(), 450],
-					[moment().subtract(12, 'hours').valueOf(), 600],
+					[moment().subtract(7920, 'hours').valueOf(), 100],
+					[moment().subtract(7200, 'hours').valueOf(), 50],
+					[moment().subtract(6480, 'hours').valueOf(), 200],
+					[moment().subtract(5760, 'hours').valueOf(), 50],
+					[moment().subtract(5040, 'hours').valueOf(), 300],
+					[moment().subtract(4320, 'hours').valueOf(), 50],
+					[moment().subtract(3600, 'hours').valueOf(), 620],
+					[moment().subtract(2880, 'hours').valueOf(), 380],
+					[moment().subtract(2160, 'hours').valueOf(), 880],
+					[moment().subtract(1440, 'hours').valueOf(), 450],
+					[moment().subtract(720, 'hours').valueOf(), 600],
 					[moment().valueOf(), 20]
 				],
 				last: true
@@ -97,11 +102,35 @@
 			{
 				label: '2016',
 				data: [
-					[moment().subtract(168, 'hours').valueOf(), 50],
-					[moment().subtract(155, 'hours').valueOf(), 520],
-					[moment().subtract(132, 'hours').valueOf(), 200],
-					[moment().subtract(36, 'hours').valueOf(), 800],
-					[moment().subtract(12, 'hours').valueOf(), 150],
+					[moment().subtract(7920, 'hours').valueOf(), 50],
+					[moment().subtract(7200, 'hours').valueOf(), 50],
+					[moment().subtract(6480, 'hours').valueOf(), 50],
+					[moment().subtract(5760, 'hours').valueOf(), 50],
+					[moment().subtract(5050, 'hours').valueOf(), 50],
+					[moment().subtract(4320, 'hours').valueOf(), 50],
+					[moment().subtract(3600, 'hours').valueOf(), 50],
+					[moment().subtract(2900, 'hours').valueOf(), 520],
+					[moment().subtract(2200, 'hours').valueOf(), 200],
+					[moment().subtract(1460, 'hours').valueOf(), 800],
+					[moment().subtract(720, 'hours').valueOf(), 150],
+					[moment().valueOf(), 20]
+				],
+				last: true
+			},
+			{
+				label: '2017',
+				data: [
+					[moment().subtract(7920, 'hours').valueOf(), 500],
+					[moment().subtract(7200, 'hours').valueOf(), 50],
+					[moment().subtract(6480, 'hours').valueOf(), 300],
+					[moment().subtract(5760, 'hours').valueOf(), 50],
+					[moment().subtract(5050, 'hours').valueOf(), 50],
+					[moment().subtract(4320, 'hours').valueOf(), 50],
+					[moment().subtract(3600, 'hours').valueOf(), 50],
+					[moment().subtract(2900, 'hours').valueOf(), 800],
+					[moment().subtract(2200, 'hours').valueOf(), 150],
+					[moment().subtract(1460, 'hours').valueOf(), 500],
+					[moment().subtract(720, 'hours').valueOf(), 150],
 					[moment().valueOf(), 20]
 				],
 				last: true
