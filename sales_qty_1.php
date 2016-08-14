@@ -15,6 +15,7 @@
 
     <script src="assets/js/canvasjs.min.js"></script>
     <script src="assets/js/sales_qty3.js"></script>
+    <link type="text/css" rel="stylesheet" href="assets/css/custom.css" />
 
 </head>
 <body class="menubar-hoverable header-fixed ">
@@ -74,96 +75,225 @@
     <div class="offcanvas">
     </div><!--end .offcanvas-->
     <!-- END OFFCANVAS LEFT -->
+    <style>
 
+
+
+    </style>
     <!-- BEGIN CONTENT-->
     <div id="content">
         <section>
-            <div class="section-body">
-                <div class="row">
-                    <div class="sparkline-revenue"></div>
-                    <div class="sparkline-visits"></div>
-                </div>
-            </div>
+            <div class="section-body"></div>
             <div class="row">
-                <!-- BEGIN SITE ACTIVITY -->
                 <div class="col-md-12">
                     <div class="card">
-                        <div class="row" id="site-activity">
-                            <div class="col-md-8">
-                                <div class="card-head">
-                                    <header>Sales(TK.) Per Month</header>
+                        <div class="row line-chart" id="site-activity">
+                            <div class="banner"><h1>Target Achivement Deficit</h1></div>
+                            <div class="col-md-12 graph">
+                                <div class="col-md-10">
+                                    <div class="card-head">
+                                        <header>Sales(TK.) Per Month</header>
+                                    </div>
+                                    <div id="chartContainer_sales" style="height: 300px; width: 100%;"></div>
                                 </div>
+                                <div class="col-md-2">
+                                    <div class="card-head">
+                                        <header>Today's stats</header>
+                                    </div>
+                                    <br>
+                                    <div class="chart-color">
+                                        <b>Year(2016) :</b>
+                                        <div class="line_1">&nbsp;</div>
+                                        <br>
+                                        <b>Year(2015) :</b>
+                                        <div class="line_2">&nbsp;</div>
+                                    </div>
 
-                                <div id="chartContainer_sales" style="height: 300px; width: 100%;"></div>
+                                    <br>
+                                    <b>Success</b> :
+                                    <span class="pull-right text-success text-sm">37% <i class="md md-trending-up"></i></span>
+                                    <div class="progress progress-hairline">
+                                        <div class="progress-bar progress-bar-primary-dark" style="width:50%"></div>
+                                        <!--<div class="progress-bar progress-bar-danger" style="width:93%"></div>-->
+                                    </div>
 
-                            </div><!--end .col -->
-                            <div class="col-md-4">
-                                <div class="card-head">
-                                    <header>Today's stats</header>
-                                </div>
-                                <div class="card-body height-12>
-											<strong>214</strong> members
-											<span class="pull-right text-success text-sm">0,18% <i class="md md-trending-up"></i></span>
-                                <div class="progress progress-hairline">
-                                    <div class="progress-bar progress-bar-primary-dark" style="width:43%"></div>
-                                </div>
-                                756 pageviews
-                                <span class="pull-right text-success text-sm">0,68% <i class="md md-trending-up"></i></span>
-                                <div class="progress progress-hairline">
-                                    <div class="progress-bar progress-bar-primary-dark" style="width:11%"></div>
-                                </div>
-                                291 bounce rates
-                                <span class="pull-right text-danger text-sm">21,08% <i class="md md-trending-down"></i></span>
-                                <div class="progress progress-hairline">
-                                    <div class="progress-bar progress-bar-danger" style="width:93%"></div>
-                                </div>
-                                32,301 visits
-                                <span class="pull-right text-success text-sm">0,18% <i class="md md-trending-up"></i></span>
-                                <div class="progress progress-hairline">
-                                    <div class="progress-bar progress-bar-primary-dark" style="width:63%"></div>
-                                </div>
-                                132 pages
-                                <span class="pull-right text-success text-sm">0,18% <i class="md md-trending-up"></i></span>
-                                <div class="progress progress-hairline">
-                                    <div class="progress-bar progress-bar-primary-dark" style="width:47%"></div>
+                                    <b>Sale :</b>
+                                    <span class="pull-right text-success text-sm">46240000</span>
+                                    <br>
+                                    <b>Cost :</b>
+                                    <span class="pull-right text-success text-sm">35000000</span>
+                                    <br>
+                                    <b>Revenue :</b>
+                                    <span class="pull-right text-success text-sm">11240000</span>
+                                    <br>
+                                    <b>Improvement :</b>
+                                    <span class="pull-right text-success text-sm">20% <i class="md md-trending-up"></i></span>
+                                    <div class="progress progress-hairline">
+                                        <div class="progress-bar progress-bar-primary-dark" style="width:20%"></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
 
-                        <div class="col-md-8">
-                            <div class="card-head">
-                                <header>Sales(Qty) Per Month</header>
+            <div class="section-body"></div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card">
+                        <div class="row line-chart" id="site-activity">
+                            <div class="col-md-12 graph">
+                                <div class="col-md-10">
+                                    <div class="card-head">
+                                        <header>Sales(Qty) Per Month</header>
+                                    </div>
+                                    <div id="chartContainer" style="height: 300px; width: 100%;"></div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="card-head">
+                                        <header>Today's stats</header>
+                                    </div>
+                                    <br>
+                                    <div class="chart-color">
+                                        <b>Sales Qty. :</b>
+                                        <div class="line_1">&nbsp;</div>
+                                        <br>
+                                    </div>
+
+                                    <br>
+                                    <b>Success</b> :
+                                    <span class="pull-right text-success text-sm">37% <i class="md md-trending-up"></i></span>
+                                    <div class="progress progress-hairline">
+                                        <div class="progress-bar progress-bar-primary-dark" style="width:50%"></div>
+                                        <!--<div class="progress-bar progress-bar-danger" style="width:93%"></div>-->
+                                    </div>
+
+                                    <b>No. Of Product :</b>
+                                    <span class="pull-right text-success text-sm">396000</span>
+                                    <br>
+                                    <b>Cost :</b>
+                                    <span class="pull-right text-success text-sm">35000000</span>
+                                    <br>
+                                    <b>Revenue :</b>
+                                    <span class="pull-right text-success text-sm">11240000</span>
+                                    <br>
+                                    <b>Improvement :</b>
+                                    <span class="pull-right text-success text-sm">25% <i class="md md-trending-up"></i></span>
+                                    <div class="progress progress-hairline">
+                                        <div class="progress-bar progress-bar-primary-dark" style="width:30%"></div>
+                                    </div>
+                                </div>
                             </div>
-
-                            <div id="chartContainer" style="height: 300px; width: 100%;"></div>
-
                         </div>
+                    </div>
+                </div>
+            </div>
 
-                        <div class="row" id="site-activity">
-                            <div class="col-md-8">
-                                <div class="card-head">
-                                    <header>No. of Product(Qty) Per Month</header>
+            <div class="section-body"></div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card">
+                        <div class="row line-chart" id="site-activity">
+                            <div class="col-md-12 graph">
+                                <div class="col-md-10">
+                                    <div class="card-head">
+                                        <header>No. of Product(Qty) Per Month</header>
+                                    </div>
+
+                                    <div id="chartContainer_product" style="height: 300px; width: 100%;"></div>
+
                                 </div>
+                                <div class="col-md-2">
+                                    <div class="card-head">
+                                        <header>Today's stats</header>
+                                    </div>
+                                    <br>
+                                    <div class="chart-color">
+                                        <b>Product Qty. :</b>
+                                        <div class="line_2">&nbsp;</div>
+                                        <br>
+                                    </div>
 
-                                <div id="chartContainer_product" style="height: 300px; width: 100%;"></div>
+                                    <br>
+                                    <b>Success</b> :
+                                    <span class="pull-right text-success text-sm">35% <i class="md md-trending-up"></i></span>
+                                    <div class="progress progress-hairline">
+                                        <div class="progress-bar progress-bar-primary-dark" style="width:50%"></div>
+                                        <!--<div class="progress-bar progress-bar-danger" style="width:93%"></div>-->
+                                    </div>
 
-                            </div><!--end .col -->
-
-                        </div>
-
-                        <div class="row" id="site-activity">
-                            <div class="col-md-8">
-                                <div class="card-head">
-                                    <header>Profit Per Month</header>
+                                    <b>No. Of Product :</b>
+                                    <span class="pull-right text-success text-sm">396000</span>
+                                    <br>
+                                    <b>Cost :</b>
+                                    <span class="pull-right text-success text-sm">35000000</span>
+                                    <br>
+                                    <b>Revenue :</b>
+                                    <span class="pull-right text-success text-sm">11240000</span>
+                                    <br>
+                                    <b>Improvement :</b>
+                                    <span class="pull-right text-success text-sm">25% <i class="md md-trending-up"></i></span>
+                                    <div class="progress progress-hairline">
+                                        <div class="progress-bar progress-bar-primary-dark" style="width:30%"></div>
+                                    </div>
                                 </div>
-
-                                <div id="chartContainer_profit" style="height: 300px; width: 100%;"></div>
-
-                            </div><!--end .col -->
-
+                            </div>
                         </div>
+                    </div>
+                </div>
+            </div>
 
+            <div class="section-body"></div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card">
+                        <div class="row line-chart" id="site-activity">
+                            <div class="col-md-12 graph">
+                                <div class="col-md-10">
+                                    <div class="card-head">
+                                        <header>Profit Per Month</header>
+                                    </div>
 
+                                    <div id="chartContainer_profit" style="height: 300px; width: 100%;"></div>
+
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="card-head">
+                                        <header>Today's stats</header>
+                                    </div>
+                                    <br>
+                                    <div class="chart-color">
+                                        <b>Profit :</b>
+                                        <div class="line_1">&nbsp;</div>
+                                        <br>
+                                    </div>
+
+                                    <br>
+                                    <b>Success</b> :
+                                    <span class="pull-right text-success text-sm">29% <i class="md md-trending-up"></i></span>
+                                    <div class="progress progress-hairline">
+                                        <div class="progress-bar progress-bar-primary-dark" style="width:50%"></div>
+                                        <!--<div class="progress-bar progress-bar-danger" style="width:93%"></div>-->
+                                    </div>
+
+                                    <b>No. Of Product :</b>
+                                    <span class="pull-right text-success text-sm">396000</span>
+                                    <br>
+                                    <b>Cost :</b>
+                                    <span class="pull-right text-success text-sm">35000000</span>
+                                    <br>
+                                    <b>Revenue :</b>
+                                    <span class="pull-right text-success text-sm">11240000</span>
+                                    <br>
+                                    <b>Improvement :</b>
+                                    <span class="pull-right text-success text-sm">21% <i class="md md-trending-up"></i></span>
+                                    <div class="progress progress-hairline">
+                                        <div class="progress-bar progress-bar-primary-dark" style="width:30%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

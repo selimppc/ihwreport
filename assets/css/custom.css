@@ -12,3 +12,47 @@
 .login-password input{
     text-align: center;
 }
+
+
+.line-chart .progress-hairline{
+    margin-top: 1px!important;
+    height: 2px!important;
+}
+
+.line-chart .progress{
+    margin-bottom:6px;
+}
+
+.border_class{
+    border-bottom: 1px solid rgba(200,200,200,.7);
+    margin-bottom: 20px;;
+}
+
+.chart-color .line_1{
+    border-bottom: 1px solid rgba(54,158,173,.7);
+    width: 80px;
+    height: 12px;
+    display: inline-block;
+
+
+}
+
+.chart-color .line_2{
+    border-bottom: 1px solid rgba(194,70,66,.7);
+    width: 80px;
+    height: 12px;
+    display: inline-block;
+}
+
+.right-align{
+    text-align: right;
+
+}
+
+.line-chart .graph{
+    margin-bottom: 30px;
+}
+
+.banner{
+    text-align: center;
+}
