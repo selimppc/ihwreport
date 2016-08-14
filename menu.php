@@ -12,7 +12,7 @@
 
             <!-- BEGIN DASHBOARD -->
             <li>
-                <a href="dashboard.html" class="active">
+                <a href="index.php" class="active">
                     <div class="gui-icon"><i class="md md-home"></i></div>
                     <span class="title">Dashboard</span>
                 </a>
@@ -27,9 +27,16 @@
             </li>
 
             <li>
-                <a href="sales_comparison.html" class="active">
+                <a href="sales_comparison.php" class="active">
                     <div class="gui-icon"><i class="glyphicon glyphicon-list-alt"></i></div>
                     <span class="title">Growth Chart Comparison</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="contribution_pie.php" class="active">
+                    <div class="gui-icon"><i class="glyphicon glyphicon-list-alt"></i></div>
+                    <span class="title">Contribution Chart</span>
                 </a>
             </li>
 
@@ -47,22 +54,6 @@
                     <li><a href="combo.php" ><span class="title">Combo Chart</span></a></li>
                 </ul>
             </li>
-
-
-            <li class="gui-folder">
-                <a>
-                    <div class="gui-icon"><i class="glyphicon glyphicon-list-alt"></i></div>
-                    <span class="title">Target Achivement - Deficit</span>
-                </a>
-                <ul>
-                    <li><a href="sales_qty_1.php" ><span class="title">Sales/Qty - 1</span></a></li>
-                    <li><a href="sales_comparison.php" ><span class="title">Growth Chart Comparison</span></a></li>
-                    <!--<li><a href="contribution_pie.php" ><span class="title">Contribution Chart</span></a></li>-->
-                    <li><a href="contribution_pie.php" ><span class="title">Contribution Chart</span></a></li>
-
-                </ul>
-            </li>
-
 
         </ul>
         <!-- END MAIN MENU -->
