@@ -11,24 +11,10 @@
     <!-- END META -->
 
     <!-- BEGIN STYLESHEETS -->
-    <link type="text/css" rel="stylesheet" href="assets/css/theme-default/bootstrap.css?1422792965" />
-    <link type="text/css" rel="stylesheet" href="assets/css/theme-default/materialadmin.css?1425466319" />
-    <link type="text/css" rel="stylesheet" href="assets/css/theme-default/font-awesome.min.css?1422529194" />
-    <link type="text/css" rel="stylesheet" href="assets/css/theme-default/material-design-iconic-font.min.css?1421434286" />
-    <link type="text/css" rel="stylesheet" href="assets/css/theme-default/libs/rickshaw/rickshaw.css?1422792967" />
-    <link type="text/css" rel="stylesheet" href="assets/css/theme-default/libs/morris/morris.core.css?1420463396" />
-
-
-    <script type="text/javascript" src="assets/js/loader.js"></script>
-    <script type="text/javascript" src="assets/js/sales_comparison.js"></script>
-
-
-
-    <script type="text/javascript" src="assets/js/libs/utils/html5shiv.js?1403934957"></script>
-    <script type="text/javascript" src="assets/js/libs/utils/respond.min.js?1403934956"></script>
+    <?php include("header.php"); ?>
 
 </head>
-
+<script type="text/javascript" src="assets/js/sales_comparison.js"></script>
 <body class="menubar-hoverable header-fixed ">
 
 <!-- BEGIN HEADER-->
@@ -244,7 +230,7 @@
     <!-- END CONTENT -->
 
     <!-- BEGIN MENUBAR-->
-    <div id="menubar" class="menubar-inverse ">
+    <!--<div id="menubar" class="menubar-inverse ">
         <div class="menubar-fixed-panel">
             <div>
                 <a class="btn btn-icon-toggle btn-default menubar-toggle" data-toggle="menubar" href="javascript:void(0);">
@@ -253,19 +239,19 @@
             </div>
         </div>
         <div class="menubar-scroll-panel">
-            <!-- BEGIN MAIN MENU -->
+            &lt;!&ndash; BEGIN MAIN MENU &ndash;&gt;
             <ul id="main-menu" class="gui-controls">
 
-                <!-- BEGIN DASHBOARD -->
+                &lt;!&ndash; BEGIN DASHBOARD &ndash;&gt;
                 <li>
                     <a href="dashboard.html" class="active">
                         <div class="gui-icon"><i class="md md-home"></i></div>
                         <span class="title">Dashboard</span>
                     </a>
                 </li>
-                <!-- END DASHBOARD -->
+                &lt;!&ndash; END DASHBOARD &ndash;&gt;
 
-                <!-- Multiple Chart -->
+                &lt;!&ndash; Multiple Chart &ndash;&gt;
 
                 <li class="gui-folder">
                     <a>
@@ -274,20 +260,20 @@
                     </a>
                     <ul>
                         <li><a href="line_chart.html" ><span class="title">Line Chart</span></a></li>
-                        <!--<li><a href="pie_chart.html" ><span class="title">Pie Chart</span></a></li>
-                        <li><a href="3d_pie_chart.html" ><span class="title">3D Pie Chart</span></a></li>-->
+                        &lt;!&ndash;<li><a href="pie_chart.html" ><span class="title">Pie Chart</span></a></li>
+                        <li><a href="3d_pie_chart.html" ><span class="title">3D Pie Chart</span></a></li>&ndash;&gt;
                         <li><a href="donut_chart.html" ><span class="title">Donut Chart</span></a></li>
-                        <!--<li><a href="exploding_slice.html" ><span class="title">Exploding a Slice</span></a></li>-->
+                        &lt;!&ndash;<li><a href="exploding_slice.html" ><span class="title">Exploding a Slice</span></a></li>&ndash;&gt;
                         <li><a href="default_column_chart.html" ><span class="title">Default Column Chart</span></a></li>
-                        <!--<li><a href="multiple_column_chart.html" ><span class="title">Multiple Column Chart</span></a></li>
-                        <li><a href="stacked_column_chart.html" ><span class="title">Stacked columns Chart</span></a></li>-->
+                        &lt;!&ndash;<li><a href="multiple_column_chart.html" ><span class="title">Multiple Column Chart</span></a></li>
+                        <li><a href="stacked_column_chart.html" ><span class="title">Stacked columns Chart</span></a></li>&ndash;&gt;
                         <li><a href="sales_comparison.html" ><span class="title">Combo Chart</span></a></li>
                     </ul>
                 </li>
 
 
 
-                <!-- Individual Shop Growth -->
+                &lt;!&ndash; Individual Shop Growth &ndash;&gt;
                 <li>
                     <a href="individual_shop_growth.html">
                         <div class="gui-icon"><i class="md md-email"></i></div>
@@ -296,7 +282,7 @@
                 </li>
 
 
-                <!-- Product Compare -->
+                &lt;!&ndash; Product Compare &ndash;&gt;
                 <li>
                     <a href="product_compare.html">
                         <div class="gui-icon"><i class="md md-web"></i></div>
@@ -305,7 +291,7 @@
                 </li>
 
 
-                <!-- Same product Compare -->
+                &lt;!&ndash; Same product Compare &ndash;&gt;
                 <li>
                     <a href="same_product_compare.html">
                         <div class="gui-icon"><i class="fa fa-puzzle-piece fa-fw"></i></div>
@@ -314,7 +300,7 @@
                 </li>
 
 
-                <!-- Discount as per sales -->
+                &lt;!&ndash; Discount as per sales &ndash;&gt;
                 <li>
                     <a href="discount_as_per_sales.html">
                         <div class="gui-icon"><i class="fa fa-table"></i></div>
@@ -323,7 +309,7 @@
                 </li>
 
 
-                <!-- Brand Compare -->
+                &lt;!&ndash; Brand Compare &ndash;&gt;
                 <li>
                     <a href="brand_compare.html">
                         <div class="gui-icon"><span class="glyphicon glyphicon-list-alt"></span></div>
@@ -332,7 +318,7 @@
                 </li>
 
 
-                <!-- Brand Best Selling -->
+                &lt;!&ndash; Brand Best Selling &ndash;&gt;
                 <li>
                     <a href="brand_best_selling.html">
                         <div class="gui-icon"><i class="md md-computer"></i></div>
@@ -341,7 +327,7 @@
                 </li>
 
 
-                <!-- Balance Report for all Store / Branch -->
+                &lt;!&ndash; Balance Report for all Store / Branch &ndash;&gt;
                 <li>
                     <a href="balance_report_for_all_store_branch.html">
                         <div class="gui-icon"><i class="md md-assessment"></i></div>
@@ -350,7 +336,7 @@
                 </li>
 
 
-                <!-- Check Life Cycle for each Product -->
+                &lt;!&ndash; Check Life Cycle for each Product &ndash;&gt;
                 <li>
                     <a href="check_life_cycle_for_each_product.html">
                         <div class="gui-icon"><i class="fa fa-folder-open fa-fw"></i></div>
@@ -358,7 +344,7 @@
                     </a>
                 </li>
 
-                <!-- Growth Overtime -->
+                &lt;!&ndash; Growth Overtime &ndash;&gt;
                 <li>
                     <a href="growth_overtime.html">
                         <div class="gui-icon"><span class="glyphicon glyphicon-list-alt"></span></div>
@@ -366,7 +352,7 @@
                     </a>
                 </li>
 
-                <!--Growth Over incentive-->
+                &lt;!&ndash;Growth Over incentive&ndash;&gt;
                 <li>
                     <a href="growth_over_incentive.html">
                         <div class="gui-icon"><i class="fa fa-puzzle-piece fa-fw"></i></div>
@@ -374,7 +360,7 @@
                     </a>
                 </li>
 
-                <!--Growth Over to Promotion-->
+                &lt;!&ndash;Growth Over to Promotion&ndash;&gt;
                 <li>
                     <a href="growth_over_to_promotion.html">
                         <div class="gui-icon"><i class="md md-assessment"></i></div>
@@ -382,7 +368,7 @@
                     </a>
                 </li>
 
-                <!--Sales Promotion-->
+                &lt;!&ndash;Sales Promotion&ndash;&gt;
                 <li>
                     <a href="sales_promotion.html">
                         <div class="gui-icon"><i class="md md-web"></i></div>
@@ -392,15 +378,16 @@
 
 
             </ul>
-            <!-- END MAIN MENU -->
+            &lt;!&ndash; END MAIN MENU &ndash;&gt;
 
             <div class="menubar-foot-panel">
                 <small class="no-linebreak hidden-folded">
                     <span class="opacity-75">Copyright &copy; 2014</span> <strong>CodeCovers</strong>
                 </small>
             </div>
-        </div><!--end .menubar-scroll-panel-->
-    </div><!--end #menubar-->
+        </div>&lt;!&ndash;end .menubar-scroll-panel&ndash;&gt;
+    </div>&lt;!&ndash;end #menubar&ndash;&gt;-->
+    <?php include("menu.php"); ?>
     <!-- END MENUBAR -->
 
     <!-- BEGIN OFFCANVAS RIGHT -->
@@ -556,6 +543,6 @@
 <script src="assets/js/sales_comparison.js"></script>
 
 <!-- END JAVASCRIPT -->
-
+<?php include("footer.php"); ?>
 </body>
 </html>
