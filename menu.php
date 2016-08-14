@@ -19,6 +19,20 @@
             </li>
             <!-- END DASHBOARD -->
 
+            <li>
+                <a href="sales_qty_1.php" class="active">
+                    <div class="gui-icon"><i class="glyphicon glyphicon-list-alt"></i></div>
+                    <span class="title">Target Achivement - Deficit</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="sales_comparison.html" class="active">
+                    <div class="gui-icon"><i class="glyphicon glyphicon-list-alt"></i></div>
+                    <span class="title">Growth Chart Comparison</span>
+                </a>
+            </li>
+
             <!-- Multiple Chart -->
 
             <li class="gui-folder">
@@ -31,18 +45,6 @@
                     <li><a href="donut_chart.php" ><span class="title">Donut Chart</span></a></li>
                     <li><a href="default_column_chart.php" ><span class="title">Default Column Chart</span></a></li>
                     <li><a href="combo.php" ><span class="title">Combo Chart</span></a></li>
-                </ul>
-            </li>
-
-            <li class="gui-folder">
-                <a>
-                    <div class="gui-icon"><i class="glyphicon glyphicon-list-alt"></i></div>
-                    <span class="title">Target Achivement - Deficit</span>
-                </a>
-                <ul>
-                    <li><a href="sales_qty_1.php" ><span class="title">Sales/Qty - 1</span></a></li>
-                    <li><a href="sales_comparison.html" ><span class="title">Growth Chart Comparison</span></a></li>
-
                 </ul>
             </li>
 
