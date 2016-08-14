@@ -8,6 +8,7 @@
 
 
 <script type="text/javascript" src="assets/js/loader.js"></script>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
 <script type="text/javascript" src="assets/js/libs/utils/html5shiv.js?1403934957"></script>
 <script type="text/javascript" src="assets/js/libs/utils/respond.min.js?1403934956"></script>

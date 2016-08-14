@@ -3,10 +3,29 @@
  */
 
 google.charts.load('current', {'packages':['corechart']});
-google.charts.setOnLoadCallback(drawVisualization);
+//google.charts.setOnLoadCallback(drawVisualization);
+// Load the Visualization API and the piechart package.
+google.charts.load('current', {'packages':['corechart']});
 
+// Set a callback to run when the Google Visualization API is loaded.
+google.charts.setOnLoadCallback(drawChart);
 
-function drawVisualization() {
+function drawChart() {
+    var jsonData = $.ajax({
+        url: "contribution_pie_data.php",
+        dataType: "json",
+        async: false
+    }).responseText;
+
+    // Create our data table out of JSON data loaded from server.
+    var data = new google.visualization.DataTable(jsonData);
+
+    // Instantiate and draw our chart, passing in some options.
+    var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
+    chart.draw(data, {width: 900, height: 600});
+}
+
+/*function drawVisualization() {
     // Some raw data (not necessarily accurate)
 
     //===== For sales Comparison
@@ -208,5 +227,5 @@ function drawVisualization() {
     };
 
     var chart = new google.visualization.ComboChart(document.getElementById('chart_div_income'));
-    chart.draw(data_income, options_income);
-}
+    chart.draw(data_income, options_income);*/
+/*}*/
