@@ -41,7 +41,8 @@
                 </a>
                 <ul>
                     <li><a href="sales_qty_1.php" ><span class="title">Sales/Qty - 1</span></a></li>
-                    <li><a href="sales_comparison.html" ><span class="title">Growth Chart Comparison</span></a></li>
+                    <li><a href="sales_comparison.php" ><span class="title">Growth Chart Comparison</span></a></li>
+                    <li><a href="contribution_pie.php" ><span class="title">Contribution Chart</span></a></li>
 
                 </ul>
             </li>
