@@ -134,7 +134,7 @@
 
     .extra-text-bottom { text-align: left;}
     .extra-text-bottom ul { margin: 0; padding: 2% 5%; background:#d0d0d0;}
-    .extra-text-bottom ul li { list-style: square inside !important; font-size: 14px; font-weight: bold;}
+    .extra-text-bottom ul li { list-style: square inside !important; font-size: 12px; font-weight: bold;}
 </style>
 <!-- BEGIN BASE-->
 <div id="base">
@@ -164,26 +164,49 @@
                                             <li>Year : 2015</li>
                                         </ul>
                                     </div>-->
-                                    <div class="extra-text-bottom col-md-8 col-md-offset-2">
+                                    <!--<div class="extra-text-bottom col-md-8 col-md-offset-2">
+                                        <ul>
+                                            <li>Total Sales Amount : Tk. 43,70,000.00/=</li>
+                                            <li>Company / Brand / Client : Agora</li>
+                                            <li>Year : 2015</li>
+                                        </ul>
+                                    </div>-->
+                                </div>
+
+                                <div class="col-md-3">
+                                    <div class="card-head">
+                                        <header style="padding-left:0;">Status Over view</header>
+                                    </div>
+                                    <div class="extra-text-bottom">
                                         <ul>
                                             <li>Total Sales Amount : Tk. 43,70,000.00/=</li>
                                             <li>Company / Brand / Client : Agora</li>
                                             <li>Year : 2015</li>
                                         </ul>
                                     </div>
-                                </div>
+                                    <table class="table">
+                                        <tr>
+                                            <th colspan="3">
+                                                Success(63%)<i class="md md-trending-up"></i>
+                                                <div class="progress progress-hairline">
+                                                    <div class="progress-bar progress-bar-primary-dark" style="width:63%"></div>
+                                                </div>
+                                            </th>
+                                        </tr>
+                                        <tr>
+                                            <th colspan="3">
+                                                Improvement(43%)<i class="md md-trending-up"></i>
+                                                <div class="progress progress-hairline">
+                                                    <div class="progress-bar progress-bar-primary-dark" style="width:43%"></div>
+                                                </div>
+                                            </th>
+                                        </tr>
+                                        <tr><th>Cost</th><td>:</td><td>Tk. 43,70,000.00/=</td></tr>
+                                        <tr><th>Revenue</th><td>:</td><td>Tk. 70,000.00/=</td></tr>
+                                        <tr><th>Expense</th><td>:</td><td>Tk. 43,00,000.00/=</td></tr>
+                                    </table>
 
-                                <div class="col-md-3">
-                                    <div class="card-head">
-                                        <header>Today's stats</header>
-                                    </div>
-                                    <div class="card-body height-12>
-											<strong>214</strong> members
-											<span class="pull-right text-success text-sm">0,18% <i class="md md-trending-up"></i></span>
-                                    <div class="progress progress-hairline">
-                                        <div class="progress-bar progress-bar-primary-dark" style="width:43%"></div>
-                                    </div>
-                                    756 pageviews
+                                    <!--756 pageviews
                                     <span class="pull-right text-success text-sm">0,68% <i class="md md-trending-up"></i></span>
                                     <div class="progress progress-hairline">
                                         <div class="progress-bar progress-bar-primary-dark" style="width:11%"></div>
@@ -202,12 +225,15 @@
                                     <span class="pull-right text-success text-sm">0,18% <i class="md md-trending-up"></i></span>
                                     <div class="progress progress-hairline">
                                         <div class="progress-bar progress-bar-primary-dark" style="width:47%"></div>
-                                    </div>
+                                    </div>-->
                                 </div>
                             </div>
-                            <div class="col-md-12"><hr></div>
+                        </div>
+                    </div>
 
-                            <!--===== For Employee based Sales========================================================-->
+                    <!--===== For Employee based Sales========================================================-->
+                    <div class="card">
+                        <div class="row" id="site-activity">
                             <div class="col-md-12">
                                 <div class="col-md-9" style="position: relative; padding:0 5%; ">
                                     <div class="card-head text-center">
@@ -215,50 +241,54 @@
                                     </div><!--end .card-head -->
                                     <div id="donutchart_employee" style="width: 100%; height: 400px;">Loading...</div>
 
-                                    <div class="extra-text-bottom col-md-8 col-md-offset-2">
+                                    <!--<div class="extra-text-bottom col-md-8 col-md-offset-2">
                                         <ul>
-                                            <li>Total Sales Amount : Tk. 43,70,000.00/=</li>
+                                            <li>Total Sales Amount : Tk. 50,00,000,000.00/=</li>
                                             <li>Year : 2016</li>
                                         </ul>
-                                    </div>
+                                    </div>-->
                                 </div>
 
                                 <div class="col-md-3">
                                     <div class="card-head">
-                                        <header>Today's stats</header>
+                                        <header style="padding-left:0;">Status Over view</header>
                                     </div>
-                                    <div class="card-body height-12>
-											<strong>214</strong> members
-											<span class="pull-right text-success text-sm">0,18% <i class="md md-trending-up"></i></span>
-                                    <div class="progress progress-hairline">
-                                        <div class="progress-bar progress-bar-primary-dark" style="width:43%"></div>
+                                    <div class="extra-text-bottom">
+                                        <ul>
+                                            <li>Total Sales Amount : Tk. 50,00,000,000.00/=</li>
+                                            <li>Year : 2016</li>
+                                        </ul>
                                     </div>
-                                    756 pageviews
-                                    <span class="pull-right text-success text-sm">0,68% <i class="md md-trending-up"></i></span>
-                                    <div class="progress progress-hairline">
-                                        <div class="progress-bar progress-bar-primary-dark" style="width:11%"></div>
-                                    </div>
-                                    291 bounce rates
-                                    <span class="pull-right text-danger text-sm">21,08% <i class="md md-trending-down"></i></span>
-                                    <div class="progress progress-hairline">
-                                        <div class="progress-bar progress-bar-danger" style="width:93%"></div>
-                                    </div>
-                                    32,301 visits
-                                    <span class="pull-right text-success text-sm">0,18% <i class="md md-trending-up"></i></span>
-                                    <div class="progress progress-hairline">
-                                        <div class="progress-bar progress-bar-primary-dark" style="width:63%"></div>
-                                    </div>
-                                    132 pages
-                                    <span class="pull-right text-success text-sm">0,18% <i class="md md-trending-up"></i></span>
-                                    <div class="progress progress-hairline">
-                                        <div class="progress-bar progress-bar-primary-dark" style="width:47%"></div>
-                                    </div>
+                                    <table class="table">
+                                        <tr>
+                                            <th colspan="3">
+                                                Success(66%)<i class="md md-trending-up"></i>
+                                                <div class="progress progress-hairline">
+                                                    <div class="progress-bar progress-bar-primary-dark" style="width:66%"></div>
+                                                </div>
+                                            </th>
+                                        </tr>
+                                        <tr>
+                                            <th colspan="3">
+                                                Improvement(77%)<i class="md md-trending-up"></i>
+                                                <div class="progress progress-hairline">
+                                                    <div class="progress-bar progress-bar-primary-dark" style="width:77%"></div>
+                                                </div>
+                                            </th>
+                                        </tr>
+                                        <tr><th>Cost</th><td>:</td><td>Tk. 50,00,000,000.00/=</td></tr>
+                                        <tr><th>Revenue</th><td>:</td><td>Tk. 1,00,000,000.00/=</td></tr>
+                                        <tr><th>Expense</th><td>:</td><td>Tk. 49,00,000,000.00/=</td></tr>
+                                    </table>
                                 </div>
 
                             </div>
-                            <div class="col-md-12"><hr></div>
+                        </div>
+                    </div>
 
-                            <!--===== For Product Based Sales =========================================================-->
+                    <!--===== For Product Based Sales =========================================================-->
+                    <div class="card">
+                        <div class="row" id="site-activity">
                             <div class="col-md-12">
                                 <div class="col-md-9" style="position: relative; padding:0 5%; ">
                                     <div class="card-head text-center">
@@ -266,50 +296,55 @@
                                     </div><!--end .card-head -->
                                     <div id="donutchart_product" style="width: 100%; height: 400px;">Loading...</div>
 
-                                    <div class="extra-text-bottom col-md-8 col-md-offset-2">
+                                    <!--<div class="extra-text-bottom col-md-8 col-md-offset-2">
                                         <ul>
                                             <li>Total Sales Amount : Tk. 40,00,000,000/=</li>
                                             <li>Year : 2015</li>
                                         </ul>
-                                    </div>
+                                    </div>-->
                                 </div>
 
                                 <div class="col-md-3">
                                     <div class="card-head">
-                                        <header>Today's stats</header>
+                                        <header style="padding-left:0;">Status Over view</header>
                                     </div>
-                                    <div class="card-body height-12>
-											<strong>214</strong> members
-											<span class="pull-right text-success text-sm">0,18% <i class="md md-trending-up"></i></span>
-                                    <div class="progress progress-hairline">
-                                        <div class="progress-bar progress-bar-primary-dark" style="width:43%"></div>
+                                    <div class="extra-text-bottom">
+                                        <ul>
+                                            <li>Total Sales Amount : Tk. 40,00,000,000.00/=</li>
+                                            <li>Year : 2015</li>
+                                        </ul>
                                     </div>
-                                    756 pageviews
-                                    <span class="pull-right text-success text-sm">0,68% <i class="md md-trending-up"></i></span>
-                                    <div class="progress progress-hairline">
-                                        <div class="progress-bar progress-bar-primary-dark" style="width:11%"></div>
-                                    </div>
-                                    291 bounce rates
-                                    <span class="pull-right text-danger text-sm">21,08% <i class="md md-trending-down"></i></span>
-                                    <div class="progress progress-hairline">
-                                        <div class="progress-bar progress-bar-danger" style="width:93%"></div>
-                                    </div>
-                                    32,301 visits
-                                    <span class="pull-right text-success text-sm">0,18% <i class="md md-trending-up"></i></span>
-                                    <div class="progress progress-hairline">
-                                        <div class="progress-bar progress-bar-primary-dark" style="width:63%"></div>
-                                    </div>
-                                    132 pages
-                                    <span class="pull-right text-success text-sm">0,18% <i class="md md-trending-up"></i></span>
-                                    <div class="progress progress-hairline">
-                                        <div class="progress-bar progress-bar-primary-dark" style="width:47%"></div>
-                                    </div>
+                                    <table class="table">
+                                        <tr>
+                                            <th colspan="3">
+                                                Success(44%)<i class="md md-trending-up"></i>
+                                                <div class="progress progress-hairline">
+                                                    <div class="progress-bar progress-bar-primary-dark" style="width:44%"></div>
+                                                </div>
+                                            </th>
+                                        </tr>
+                                        <tr>
+                                            <th colspan="3">
+                                                Improvement(23%)<i class="md md-trending-down"></i>
+                                                <div class="progress progress-hairline">
+                                                    <div class="progress-bar progress-bar-primary-dark" style="width:23%"></div>
+                                                </div>
+                                            </th>
+                                        </tr>
+                                        <tr><th>Cost</th><td>:</td><td>Tk. 40,00,000,000.00/=</td></tr>
+                                        <tr><th>Revenue</th><td>:</td><td>Tk. 4,00,000,000.00/=</td></tr>
+                                        <tr><th>Expense</th><td>:</td><td>Tk. 36,00,000,000.00/=</td></tr>
+                                    </table>
                                 </div>
 
                             </div>
-                            <div class="col-md-12"><hr></div>
+                        </div>
+                    </div>
 
-                            <!--===== For Brand wise Sales============================================================-->
+
+                    <!--===== For Brand wise Sales============================================================-->
+                    <div class="card">
+                        <div class="row" id="site-activity">
                             <div class="col-md-12">
                                 <div class="col-md-9" style="position: relative; padding:0 5%; ">
                                     <div class="card-head text-center">
@@ -317,50 +352,54 @@
                                     </div><!--end .card-head -->
                                     <div id="donutchart_brand" style="width: 100%; height: 400px;">Loading...</div>
 
-                                    <div class="extra-text-bottom col-md-8 col-md-offset-2">
+                                    <!--<div class="extra-text-bottom col-md-8 col-md-offset-2">
                                         <ul>
                                             <li>Total Sales Amount : Tk. 60,00,000,000/=</li>
                                             <li>Year : 2015</li>
                                         </ul>
-                                    </div>
+                                    </div>-->
                                 </div>
 
                                 <div class="col-md-3">
                                     <div class="card-head">
-                                        <header>Today's stats</header>
+                                        <header style="padding-left:0;">Status Over view</header>
                                     </div>
-                                    <div class="card-body height-12>
-											<strong>214</strong> members
-											<span class="pull-right text-success text-sm">0,18% <i class="md md-trending-up"></i></span>
-                                    <div class="progress progress-hairline">
-                                        <div class="progress-bar progress-bar-primary-dark" style="width:43%"></div>
+                                    <div class="extra-text-bottom">
+                                        <ul>
+                                            <li>Total Sales Amount : Tk. 60,00,000,000.00/=</li>
+                                            <li>Year : 2015</li>
+                                        </ul>
                                     </div>
-                                    756 pageviews
-                                    <span class="pull-right text-success text-sm">0,68% <i class="md md-trending-up"></i></span>
-                                    <div class="progress progress-hairline">
-                                        <div class="progress-bar progress-bar-primary-dark" style="width:11%"></div>
-                                    </div>
-                                    291 bounce rates
-                                    <span class="pull-right text-danger text-sm">21,08% <i class="md md-trending-down"></i></span>
-                                    <div class="progress progress-hairline">
-                                        <div class="progress-bar progress-bar-danger" style="width:93%"></div>
-                                    </div>
-                                    32,301 visits
-                                    <span class="pull-right text-success text-sm">0,18% <i class="md md-trending-up"></i></span>
-                                    <div class="progress progress-hairline">
-                                        <div class="progress-bar progress-bar-primary-dark" style="width:63%"></div>
-                                    </div>
-                                    132 pages
-                                    <span class="pull-right text-success text-sm">0,18% <i class="md md-trending-up"></i></span>
-                                    <div class="progress progress-hairline">
-                                        <div class="progress-bar progress-bar-primary-dark" style="width:47%"></div>
-                                    </div>
+                                    <table class="table">
+                                        <tr>
+                                            <th colspan="3">
+                                                Success(55%)<i class="md md-trending-up"></i>
+                                                <div class="progress progress-hairline">
+                                                    <div class="progress-bar progress-bar-primary-dark" style="width:55%"></div>
+                                                </div>
+                                            </th>
+                                        </tr>
+                                        <tr>
+                                            <th colspan="3">
+                                                Improvement(67%)<i class="md md-trending-up"></i>
+                                                <div class="progress progress-hairline">
+                                                    <div class="progress-bar progress-bar-primary-dark" style="width:67%"></div>
+                                                </div>
+                                            </th>
+                                        </tr>
+                                        <tr><th>Cost</th><td>:</td><td>Tk. 60,00,000,000.00/=</td></tr>
+                                        <tr><th>Revenue</th><td>:</td><td>Tk. 6,00,000,000.00/=</td></tr>
+                                        <tr><th>Expense</th><td>:</td><td>Tk. 54,00,000,000.00/=</td></tr>
+                                    </table>
                                 </div>
 
                             </div>
-                            <div class="col-md-12"><hr></div>
+                        </div>
+                    </div>
 
-                            <!--===== For SKV Sales wise ==============================================================-->
+                    <!--===== For SKV Sales wise ==============================================================-->
+                    <div class="card">
+                        <div class="row" id="site-activity">
                             <div class="col-md-12">
                                 <div class="col-md-9" style="position: relative; padding:0 5%; ">
                                     <div class="card-head text-center">
@@ -368,50 +407,55 @@
                                     </div><!--end .card-head -->
                                     <div id="donutchart_skv" style="width: 100%; height: 400px;">Loading...</div>
 
-                                    <div class="extra-text-bottom col-md-8 col-md-offset-2">
+                                    <!--<div class="extra-text-bottom col-md-8 col-md-offset-2">
                                         <ul>
                                             <li>Total Sales Amount : Tk. 60,00,000,000/=</li>
                                             <li>Year : 2015</li>
                                         </ul>
-                                    </div>
+                                    </div>-->
                                 </div>
 
                                 <div class="col-md-3">
                                     <div class="card-head">
-                                        <header>Today's stats</header>
+                                        <header style="padding:0;">Status Over view</header>
                                     </div>
-                                    <div class="card-body height-12>
-											<strong>214</strong> members
-											<span class="pull-right text-success text-sm">0,18% <i class="md md-trending-up"></i></span>
-                                    <div class="progress progress-hairline">
-                                        <div class="progress-bar progress-bar-primary-dark" style="width:43%"></div>
+                                    <div class="extra-text-bottom">
+                                        <ul>
+                                            <li>Total Sales Amount : Tk. 45,00,000,000.00/=</li>
+                                            <li>Year : 2015</li>
+                                        </ul>
                                     </div>
-                                    756 pageviews
-                                    <span class="pull-right text-success text-sm">0,68% <i class="md md-trending-up"></i></span>
-                                    <div class="progress progress-hairline">
-                                        <div class="progress-bar progress-bar-primary-dark" style="width:11%"></div>
-                                    </div>
-                                    291 bounce rates
-                                    <span class="pull-right text-danger text-sm">21,08% <i class="md md-trending-down"></i></span>
-                                    <div class="progress progress-hairline">
-                                        <div class="progress-bar progress-bar-danger" style="width:93%"></div>
-                                    </div>
-                                    32,301 visits
-                                    <span class="pull-right text-success text-sm">0,18% <i class="md md-trending-up"></i></span>
-                                    <div class="progress progress-hairline">
-                                        <div class="progress-bar progress-bar-primary-dark" style="width:63%"></div>
-                                    </div>
-                                    132 pages
-                                    <span class="pull-right text-success text-sm">0,18% <i class="md md-trending-up"></i></span>
-                                    <div class="progress progress-hairline">
-                                        <div class="progress-bar progress-bar-primary-dark" style="width:47%"></div>
-                                    </div>
+                                    <table class="table">
+                                        <tr>
+                                            <th colspan="3">
+                                                Success(83%) <i class="md md-trending-up"></i>
+                                                <div class="progress progress-hairline">
+                                                    <div class="progress-bar progress-bar-primary-dark" style="width:83%"></div>
+                                                </div>
+                                            </th>
+                                        </tr>
+                                        <tr>
+                                            <th colspan="3">
+                                                Improvement(43%) <i class="md md-trending-down"></i>
+                                                <div class="progress progress-hairline">
+                                                    <div class="progress-bar progress-bar-primary-dark" style="width:43%"></div>
+                                                </div>
+                                            </th>
+                                        </tr>
+                                        <tr><th>Cost</th><td>:</td><td>Tk. 45,00,000,000.00/=</td></tr>
+                                        <tr><th>Revenue</th><td>:</td><td>Tk. 5,00,000,000.00/=</td></tr>
+                                        <tr><th>Expense</th><td>:</td><td>Tk. 40,00,000,000.00/=</td></tr>
+                                    </table>
                                 </div>
 
                             </div>
-                            <div class="col-md-12"><hr></div>
+                        </div>
+                    </div>
+                    <!--===== End Graph=====-->
 
 
+                    <!--<div class="card">
+                        <div class="row" id="site-activity">
                             <div class="col-md-12">
                                 <div class="card-head">
                                     <header>Today's stats</header>
@@ -444,7 +488,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div>-->
                 </div>
             </div>
         </section>

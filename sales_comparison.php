@@ -127,7 +127,11 @@
     </div>
 </header>
 <!-- END HEADER-->
-
+<style>
+    .extra-text-bottom { text-align: left;}
+    .extra-text-bottom ul { margin: 0; padding: 2% 5%; background:#d0d0d0;}
+    .extra-text-bottom ul li { list-style: square inside !important; font-size: 12px; font-weight: bold;}
+</style>
 <!-- BEGIN BASE-->
 <div id="base">
     <!-- BEGIN CONTENT-->
@@ -137,59 +141,338 @@
             <div class="row">
                 <!-- BEGIN SITE ACTIVITY -->
                 <div class="col-md-12">
+
+                    <!--===== For Sales Comparison ===================================================================-->
                     <div class="card">
                         <div class="row" id="site-activity">
                             <div class="col-md-12">
-                                <!--For Sales Comparison-->
-                                <div class="card-head text-center">
-                                    <header>Sales Comparison</header>
-                                </div><!--end .card-head -->
-                                <div id="chart_div" style="width: 100%; height: 500px;"></div>
-                                <hr>
+                                <div class="col-md-9">
+                                    <div class="card-head text-center">
+                                        <header>Sales Comparison</header>
+                                    </div><!--end .card-head -->
+                                    <div id="chart_div" style="width: 100%; height: 500px;"></div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card-head">
+                                        <header style="padding-left:0;">Status Over view</header>
+                                    </div>
+                                    <div class="extra-text-bottom">
+                                        <ul>
+                                            <li>Total Sales Amount : Tk. 50,00,000,000.00/=</li>
+                                            <li>Year : Jan, 2005 - Jan, 2016</li>
+                                        </ul>
+                                    </div>
+                                    <table class="table">
+                                        <tr>
+                                            <th colspan="3">
+                                                Success(66%)<i class="md md-trending-up"></i>
+                                                <div class="progress progress-hairline">
+                                                    <div class="progress-bar progress-bar-primary-dark" style="width:66%"></div>
+                                                </div>
+                                            </th>
+                                        </tr>
+                                        <tr>
+                                            <th colspan="3">
+                                                Improvement(77%)<i class="md md-trending-up"></i>
+                                                <div class="progress progress-hairline">
+                                                    <div class="progress-bar progress-bar-primary-dark" style="width:77%"></div>
+                                                </div>
+                                            </th>
+                                        </tr>
+                                        <tr><th>Cost</th><td>:</td><td>Tk. 48,00,000,000.00/=</td></tr>
+                                        <tr><th>Revenue</th><td>:</td><td>Tk. 3,00,000,000.00/=</td></tr>
+                                        <tr><th>Expense</th><td>:</td><td>Tk. 45,00,000,000.00/=</td></tr>
+                                    </table>
+                                </div>
 
-                                <!--For Brand Comparison-->
-                                <div class="card-head text-center">
-                                    <header>Sales (Brand Comparison)</header>
-                                </div><!--end .card-head -->
-                                <div id="chart_div_brand" style="width: 100%; height: 500px;"></div>
-                                <hr>
+                            </div>
+                        </div>
+                    </div>
 
-                                <!--For Outlet Comparison-->
-                                <div class="card-head text-center">
-                                    <header>Sales (Outlet Comparison)</header>
-                                </div><!--end .card-head -->
-                                <div id="chart_div_outlet" style="width: 100%; height: 500px;"></div>
-                                <hr>
+                    <!--===== For Brand Comparison ===================================================================-->
+                    <div class="card">
+                        <div class="row" id="site-activity">
+                            <div class="col-md-12">
+                                <div class="col-md-9">
+                                    <div class="card-head text-center">
+                                        <header>Sales (Brand Comparison)</header>
+                                    </div><!--end .card-head -->
+                                    <div id="chart_div_brand" style="width: 100%; height: 500px;"></div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card-head">
+                                        <header style="padding-left:0;">Status Over view</header>
+                                    </div>
+                                    <div class="extra-text-bottom">
+                                        <ul>
+                                            <li>Total Sales Amount : Tk. 35,00,000,000.00/=</li>
+                                            <li>Year : Jan, 2005 - Jan, 2016</li>
+                                        </ul>
+                                    </div>
+                                    <table class="table">
+                                        <tr>
+                                            <th colspan="3">
+                                                Success(44%)<i class="md md-trending-up"></i>
+                                                <div class="progress progress-hairline">
+                                                    <div class="progress-bar progress-bar-primary-dark" style="width:44%"></div>
+                                                </div>
+                                            </th>
+                                        </tr>
+                                        <tr>
+                                            <th colspan="3">
+                                                Improvement(56%)<i class="md md-trending-up"></i>
+                                                <div class="progress progress-hairline">
+                                                    <div class="progress-bar progress-bar-primary-dark" style="width:56%"></div>
+                                                </div>
+                                            </th>
+                                        </tr>
+                                        <tr><th>Cost</th><td>:</td><td>Tk. 33,00,000,000.00/=</td></tr>
+                                        <tr><th>Revenue</th><td>:</td><td>Tk. 2,00,000,000.00/=</td></tr>
+                                        <tr><th>Expense</th><td>:</td><td>Tk. 31,00,000,000.00/=</td></tr>
+                                    </table>
+                                </div>
 
-                                <!--For Client Comparison-->
-                                <div class="card-head text-center">
-                                    <header>Sales (Client wise Comparison)</header>
-                                </div><!--end .card-head -->
-                                <div id="chart_div_client" style="width: 100%; height: 500px;"></div>
-                                <hr>
+                            </div>
+                        </div>
+                    </div>
 
-                                <!--For Client Maximum Growth Pattern-->
-                                <div class="card-head text-center">
-                                    <header>Sales (Client Maximum Growth Pattern)</header>
-                                </div><!--end .card-head -->
-                                <div id="chart_div_client_max" style="width: 100%; height: 500px;"></div>
-                                <hr>
+                    <!--===== For Outlet Comparison ==================================================================-->
+                    <div class="card">
+                        <div class="row" id="site-activity">
+                            <div class="col-md-12">
+                                <div class="col-md-9">
+                                    <div class="card-head text-center">
+                                        <header>Sales (Outlet Comparison)</header>
+                                    </div><!--end .card-head -->
+                                    <div id="chart_div_outlet" style="width: 100%; height: 500px;"></div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card-head">
+                                        <header style="padding-left:0;">Status Over view</header>
+                                    </div>
+                                    <div class="extra-text-bottom">
+                                        <ul>
+                                            <li>Total Sales Amount : Tk. 78,00,000,000.00/=</li>
+                                            <li>Year : Jan, 2005 - Jan, 2016</li>
+                                        </ul>
+                                    </div>
+                                    <table class="table">
+                                        <tr>
+                                            <th colspan="3">
+                                                Success(88%)<i class="md md-trending-up"></i>
+                                                <div class="progress progress-hairline">
+                                                    <div class="progress-bar progress-bar-primary-dark" style="width:88%"></div>
+                                                </div>
+                                            </th>
+                                        </tr>
+                                        <tr>
+                                            <th colspan="3">
+                                                Improvement(34%)<i class="md md-trending-up"></i>
+                                                <div class="progress progress-hairline">
+                                                    <div class="progress-bar progress-bar-primary-dark" style="width:34%"></div>
+                                                </div>
+                                            </th>
+                                        </tr>
+                                        <tr><th>Cost</th><td>:</td><td>Tk. 70,00,000,000.00/=</td></tr>
+                                        <tr><th>Revenue</th><td>:</td><td>Tk. 1,00,000,000.00/=</td></tr>
+                                        <tr><th>Expense</th><td>:</td><td>Tk. 69,00,000,000.00/=</td></tr>
+                                    </table>
+                                </div>
 
-                                <!--For Profit/Low Growth-->
-                                <div class="card-head text-center">
-                                    <header>Profit / Low Growth</header>
-                                </div><!--end .card-head -->
-                                <div id="chart_div_profit" style="width: 100%; height: 500px;"></div>
-                                <hr>
+                            </div>
+                        </div>
+                    </div>
 
-                                <!--For Expense/Income Growth-->
-                                <div class="card-head text-center">
-                                    <header>Expense/Income Comparison</header>
-                                </div><!--end .card-head -->
-                                <div id="chart_div_income" style="width: 100%; height: 500px;"></div>
-                                <hr>
+                    <!--===== For Client Comparison ==================================================================-->
+                    <div class="card">
+                        <div class="row" id="site-activity">
+                            <div class="col-md-12">
+                                <div class="col-md-9">
+                                    <div class="card-head text-center">
+                                        <header>Sales (Client wise Comparison)</header>
+                                    </div><!--end .card-head -->
+                                    <div id="chart_div_client" style="width: 100%; height: 500px;"></div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card-head">
+                                        <header style="padding-left:0;">Status Over view</header>
+                                    </div>
+                                    <div class="extra-text-bottom">
+                                        <ul>
+                                            <li>Total Sales Amount : Tk. 6,909,098.00/=</li>
+                                            <li>Year : Jan, 2005 - Jan, 2016</li>
+                                        </ul>
+                                    </div>
+                                    <table class="table">
+                                        <tr>
+                                            <th colspan="3">
+                                                Success(66%)<i class="md md-trending-up"></i>
+                                                <div class="progress progress-hairline">
+                                                    <div class="progress-bar progress-bar-primary-dark" style="width:66%"></div>
+                                                </div>
+                                            </th>
+                                        </tr>
+                                        <tr>
+                                            <th colspan="3">
+                                                Improvement(77%)<i class="md md-trending-up"></i>
+                                                <div class="progress progress-hairline">
+                                                    <div class="progress-bar progress-bar-primary-dark" style="width:77%"></div>
+                                                </div>
+                                            </th>
+                                        </tr>
+                                        <tr><th>Cost</th><td>:</td><td>Tk. 5,909,098.00/=</td></tr>
+                                        <tr><th>Revenue</th><td>:</td><td>Tk. 1,00,000,000.00/=</td></tr>
+                                        <tr><th>Expense</th><td>:</td><td>Tk. 4,909,098.00/=</td></tr>
+                                    </table>
+                                </div>
 
-                            </div><!--end .col -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--===== For Client Maximum Growth Pattern ======================================================-->
+                    <div class="card">
+                        <div class="row" id="site-activity">
+                            <div class="col-md-12">
+                                <div class="col-md-9">
+                                    <div class="card-head text-center">
+                                        <header>Sales (Client Maximum Growth Pattern)</header>
+                                    </div><!--end .card-head -->
+                                    <div id="chart_div_client_max" style="width: 100%; height: 500px;"></div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card-head">
+                                        <header style="padding-left:0;">Status Over view</header>
+                                    </div>
+                                    <div class="extra-text-bottom">
+                                        <ul>
+                                            <li>Total Sales Amount : Tk. 44,00,000,000.00/=</li>
+                                            <li>Year : Jan, 2005 - Jan, 2016</li>
+                                        </ul>
+                                    </div>
+                                    <table class="table">
+                                        <tr>
+                                            <th colspan="3">
+                                                Success(66%)<i class="md md-trending-up"></i>
+                                                <div class="progress progress-hairline">
+                                                    <div class="progress-bar progress-bar-primary-dark" style="width:66%"></div>
+                                                </div>
+                                            </th>
+                                        </tr>
+                                        <tr>
+                                            <th colspan="3">
+                                                Improvement(77%)<i class="md md-trending-up"></i>
+                                                <div class="progress progress-hairline">
+                                                    <div class="progress-bar progress-bar-primary-dark" style="width:77%"></div>
+                                                </div>
+                                            </th>
+                                        </tr>
+                                        <tr><th>Cost</th><td>:</td><td>Tk. 40,00,000,000.00/=</td></tr>
+                                        <tr><th>Revenue</th><td>:</td><td>Tk. 4,00,000,000.00/=</td></tr>
+                                        <tr><th>Expense</th><td>:</td><td>Tk. 36,00,000,000.00/=</td></tr>
+                                    </table>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--===== For Profit/Low Growth ==================================================================-->
+                    <div class="card">
+                        <div class="row" id="site-activity">
+                            <div class="col-md-12">
+                                <div class="col-md-9">
+                                    <div class="card-head text-center">
+                                        <header>Profit / Low Growth</header>
+                                    </div><!--end .card-head -->
+                                    <div id="chart_div_profit" style="width: 100%; height: 500px;"></div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card-head">
+                                        <header style="padding-left:0;">Status Over view</header>
+                                    </div>
+                                    <div class="extra-text-bottom">
+                                        <ul>
+                                            <li>Total Sales Amount : Tk. 88,00,000,000.00/=</li>
+                                            <li>Year : Jan, 2005 - Jan, 2016</li>
+                                        </ul>
+                                    </div>
+                                    <table class="table">
+                                        <tr>
+                                            <th colspan="3">
+                                                Success(66%)<i class="md md-trending-up"></i>
+                                                <div class="progress progress-hairline">
+                                                    <div class="progress-bar progress-bar-primary-dark" style="width:66%"></div>
+                                                </div>
+                                            </th>
+                                        </tr>
+                                        <tr>
+                                            <th colspan="3">
+                                                Improvement(77%)<i class="md md-trending-up"></i>
+                                                <div class="progress progress-hairline">
+                                                    <div class="progress-bar progress-bar-primary-dark" style="width:77%"></div>
+                                                </div>
+                                            </th>
+                                        </tr>
+                                        <tr><th>Cost</th><td>:</td><td>Tk. 78,00,000,000.00/=</td></tr>
+                                        <tr><th>Revenue</th><td>:</td><td>Tk. 8,00,000,000.00/=</td></tr>
+                                        <tr><th>Expense</th><td>:</td><td>Tk. 70,00,000,000.00/=</td></tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--===== For Expense/Income Growth ==============================================================-->
+                    <div class="card">
+                        <div class="row" id="site-activity">
+                            <div class="col-md-12">
+                                <div class="col-md-9">
+                                    <div class="card-head text-center">
+                                        <header>Expense/Income Comparison</header>
+                                    </div><!--end .card-head -->
+                                    <div id="chart_div_income" style="width: 100%; height: 500px;"></div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card-head">
+                                        <header style="padding-left:0;">Status Over view</header>
+                                    </div>
+                                    <div class="extra-text-bottom">
+                                        <ul>
+                                            <li>Total Sales Amount : Tk. 54,000,000.00/=</li>
+                                            <li>Year : 2016</li>
+                                        </ul>
+                                    </div>
+                                    <table class="table">
+                                        <tr>
+                                            <th colspan="3">
+                                                Success(89.78%)<i class="md md-trending-up"></i>
+                                                <div class="progress progress-hairline">
+                                                    <div class="progress-bar progress-bar-primary-dark" style="width:89.78%"></div>
+                                                </div>
+                                            </th>
+                                        </tr>
+                                        <tr>
+                                            <th colspan="3">
+                                                Improvement(72.56%)<i class="md md-trending-up"></i>
+                                                <div class="progress progress-hairline">
+                                                    <div class="progress-bar progress-bar-primary-dark" style="width:72.56%"></div>
+                                                </div>
+                                            </th>
+                                        </tr>
+                                        <tr><th>Cost</th><td>:</td><td>Tk. 54,000,000.00/=</td></tr>
+                                        <tr><th>Revenue</th><td>:</td><td>Tk. 3,000,000.00/=</td></tr>
+                                        <tr><th>Expense</th><td>:</td><td>Tk. 51,000,000.00/=</td></tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--===== Graph END ====== -->
+                    <!--<div class="card">
+                        <div class="row" id="site-activity">
+
+
                             <div class="col-md-12">
                                 <div class="card-head">
                                     <header>Today's stats</header>
@@ -222,7 +505,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div>-->
                 </div>
             </div>
         </section>
