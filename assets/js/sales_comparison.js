@@ -123,6 +123,35 @@ function drawVisualization() {
     var chart = new google.visualization.ComboChart(document.getElementById('chart_div_client'));
     chart.draw(data_client, options_client);
 
+    //===== For Client Maximum Growth Pattern
+    var data_client_max = google.visualization.arrayToDataTable([
+        ['Month', '', 'Agora(Growth Pattern)'],
+        ['Jan 2005',  0,     50],
+        ['Jan 2006',  0,     150],
+        ['Jan 2007',  0,     100],
+        ['Jan 2008',  0,     250],
+        ['Jan 2009',  0,     200],
+        ['Jan 2010',  0,     350],
+        ['Jan 2011',  0,     300],
+        ['Jan 2012',  0,     450],
+        ['Jan 2013',  0,     400],
+        ['Jan 2014',  0,     460],
+        ['Jan 2015',  0,     470],
+        ['Jan 2016',  0,     465]
+    ]);
+    var options_client_max = {
+        //title : 'Breakdown Graph',
+        colors:['white','green'],
+        vAxis: {title: 'Sales(TK)'},
+        hAxis: {title: 'Years / Time'},
+        pointSize: 10,
+        curveType: 'function',
+        seriesType: 'bars',
+        series: {1: {type: 'line'}}
+    };
+    var chart = new google.visualization.ComboChart(document.getElementById('chart_div_client_max'));
+    chart.draw(data_client_max, options_client_max);
+
 
     //===== For Profit/Low Growth
     var data_profit = google.visualization.arrayToDataTable([
