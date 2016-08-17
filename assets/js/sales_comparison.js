@@ -97,7 +97,7 @@ function drawVisualization() {
 
     //===== For Client Comparison
     var data_client = google.visualization.arrayToDataTable([
-        ['Month', 'Agora', 'client'],
+        ['Month', 'Agora', 'Ocean'],
         ['Jan 2005',  959595,     898989],
         ['Jan 2006',  454545,     545454],
         ['Jan 2007',  787878,     686868],
@@ -147,13 +147,15 @@ function drawVisualization() {
         pointSize: 10,
         curveType: 'function',
         seriesType: 'bars',
-        series: {1: {type: 'line'}}
+        series: {1: {type: 'line'}},
+        //vAxis: { gridlines: { count: 8 } }
+
     };
     var chart = new google.visualization.ComboChart(document.getElementById('chart_div_client_max'));
     chart.draw(data_client_max, options_client_max);
 
 
-    //===== For Profit/Low Growth
+    //===== For Profit/Loss Growth
     var data_profit = google.visualization.arrayToDataTable([
         ['Month',     'Sales',      'Sales line',      'Profit Lavel'],
         ['Jan 2005',  45645652,     45645652,           35353625],

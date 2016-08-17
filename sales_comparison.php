@@ -377,13 +377,13 @@
                         </div>
                     </div>
 
-                    <!--===== For Profit/Low Growth ==================================================================-->
+                    <!--===== For Profit/Loss Growth ==================================================================-->
                     <div class="card">
                         <div class="row" id="site-activity">
                             <div class="col-md-12">
                                 <div class="col-md-9">
                                     <div class="card-head text-center">
-                                        <header>Profit / Low Growth</header>
+                                        <header>Profit / Loss Growth</header>
                                     </div><!--end .card-head -->
                                     <div id="chart_div_profit" style="width: 100%; height: 500px;"></div>
                                 </div>
