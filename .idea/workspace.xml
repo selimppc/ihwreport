@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="911befb4-32d7-4224-b556-73798563c0dc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/sales_qty3.js" afterPath="$PROJECT_DIR$/assets/js/sales_qty3.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sales_qty_1.php" afterPath="$PROJECT_DIR$/sales_qty_1.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contribution_pie.php" afterPath="$PROJECT_DIR$/contribution_pie.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ihwreport.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -70,11 +70,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sales_qty3.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sales_qty3.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/sales_qty3.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.46278316">
+            <state vertical-scroll-proportion="0.0">
               <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contribution_pie.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/contribution_pie.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.568873">
+              <caret line="405" column="51" selection-start-line="405" selection-start-column="51" selection-end-line="405" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -100,6 +110,7 @@
       <list>
         <option value="$PROJECT_DIR$/assets/js/sales_qty3.js" />
         <option value="$PROJECT_DIR$/sales_qty_1.php" />
+        <option value="$PROJECT_DIR$/contribution_pie.php" />
       </list>
     </option>
   </component>
@@ -212,7 +223,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="53" y="-4" width="1313" height="772" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -299,8 +310,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/sales_qty3.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46278316">
+        <state vertical-scroll-proportion="0.0">
           <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contribution_pie.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.568873">
+          <caret line="405" column="51" selection-start-line="405" selection-start-column="51" selection-end-line="405" selection-end-column="51" />
           <folding />
         </state>
       </provider>

@@ -403,7 +403,7 @@
                             <div class="col-md-12">
                                 <div class="col-md-9" style="position: relative; padding:0 5%; ">
                                     <div class="card-head text-center">
-                                        <header>SKV Sales Wise</header>
+                                        <header>SKU Sales Wise</header>
                                     </div><!--end .card-head -->
                                     <div id="donutchart_skv" style="width: 100%; height: 400px;">Loading...</div>
 
