@@ -78,7 +78,6 @@
     <style>
 
 
-
     </style>
     <!-- BEGIN CONTENT-->
     <div id="content">
@@ -91,10 +90,7 @@
                             <div class="banner"><h1>Target Achivement Deficit</h1></div>
                             <div class="col-md-12 graph">
                                 <div class="col-md-10">
-                                    <div class="card-head">
-                                        <header>Sales(TK.) Per Month</header>
-                                    </div>
-                                    <div id="chartContainer_sales" style="height: 300px; width: 100%;"></div>
+                                    <div id="chartContainer_sales" style="height: 350px; width: 100%;"></div>
                                 </div>
                                 <div class="col-md-2">
                                     <div class="card-head">
@@ -105,7 +101,7 @@
                                         <b>Year(2016) :</b>
                                         <div class="line_1">&nbsp;</div>
                                         <br>
-                                        <b>Year(2015) :</b>
+                                        <b>Year(2017) :</b>
                                         <div class="line_2">&nbsp;</div>
                                     </div>
 
@@ -143,12 +139,11 @@
                 <div class="col-md-12">
                     <div class="card">
                         <div class="row line-chart" id="site-activity">
+                            <div class="banner"><h1>Target Achivement Deficit</h1></div>
                             <div class="col-md-12 graph">
                                 <div class="col-md-10">
-                                    <div class="card-head">
-                                        <header>Sales(Qty) Per Month</header>
-                                    </div>
-                                    <div id="chartContainer" style="height: 300px; width: 100%;"></div>
+
+                                    <div id="chartContainer" style="height: 350px; width: 100%;"></div>
                                 </div>
                                 <div class="col-md-2">
                                     <div class="card-head">
@@ -195,13 +190,11 @@
                 <div class="col-md-12">
                     <div class="card">
                         <div class="row line-chart" id="site-activity">
+                            <div class="banner"><h1>Target Achivement Deficit</h1></div>
                             <div class="col-md-12 graph">
                                 <div class="col-md-10">
-                                    <div class="card-head">
-                                        <header>No. of Product(Qty) Per Month</header>
-                                    </div>
 
-                                    <div id="chartContainer_product" style="height: 300px; width: 100%;"></div>
+                                    <div id="chartContainer_product" style="height: 350px; width: 100%;"></div>
 
                                 </div>
                                 <div class="col-md-2">
@@ -249,13 +242,10 @@
                 <div class="col-md-12">
                     <div class="card">
                         <div class="row line-chart" id="site-activity">
+                            <div class="banner"><h1>Target Achivement Deficit</h1></div>
                             <div class="col-md-12 graph">
                                 <div class="col-md-10">
-                                    <div class="card-head">
-                                        <header>Profit Per Month</header>
-                                    </div>
-
-                                    <div id="chartContainer_profit" style="height: 300px; width: 100%;"></div>
+                                    <div id="chartContainer_profit" style="height: 350px; width: 100%;"></div>
 
                                 </div>
                                 <div class="col-md-2">
