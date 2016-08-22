@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24948cc4-33e5-4f2f-a8d5-3af3abf6ce62" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/sales_comparison.js" afterPath="$PROJECT_DIR$/assets/js/sales_comparison.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sales_comparison.php" afterPath="$PROJECT_DIR$/sales_comparison.php" />
     </list>
     <ignored path="ihwreport.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,21 +25,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="sales_comparison.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="sales_comparison.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/js/sales_comparison.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="157" column="27" selection-start-line="157" selection-start-column="27" selection-end-line="157" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.9438944">
+              <caret line="100" column="9" selection-start-line="100" selection-start-column="9" selection-end-line="100" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sales_comparison.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sales_comparison.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sales_comparison.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.46896553">
-              <caret line="387" column="65" selection-start-line="387" selection-start-column="65" selection-end-line="387" selection-end-column="65" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="150" column="64" selection-start-line="150" selection-start-column="64" selection-end-line="150" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -48,7 +48,7 @@
       <file leaf-file-name="contribution_pie.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contribution_pie.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-143.84616">
+            <state vertical-scroll-proportion="0.0">
               <caret line="364" column="71" selection-start-line="364" selection-start-column="71" selection-end-line="364" selection-end-column="71" />
               <folding />
             </state>
@@ -131,8 +131,8 @@
         <option value="$PROJECT_DIR$/contribution_donut.php" />
         <option value="$PROJECT_DIR$/assets/js/contribution_pie.js" />
         <option value="$PROJECT_DIR$/contribution_pie.php" />
-        <option value="$PROJECT_DIR$/assets/js/sales_comparison.js" />
         <option value="$PROJECT_DIR$/sales_comparison.php" />
+        <option value="$PROJECT_DIR$/assets/js/sales_comparison.js" />
       </list>
     </option>
   </component>
@@ -176,6 +176,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -301,7 +302,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -726,6 +726,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35517243">
+          <caret line="50" column="56" selection-start-line="50" selection-start-column="56" selection-end-line="50" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29310346">
+          <caret line="10" column="106" selection-start-line="10" selection-start-column="106" selection-end-line="10" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contribution_pie.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="364" column="71" selection-start-line="364" selection-start-column="71" selection-end-line="364" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sales_comparison.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="150" column="64" selection-start-line="150" selection-start-column="64" selection-end-line="150" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/contribution_pie.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -734,42 +764,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/menu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35517243">
-          <caret line="50" column="56" selection-start-line="50" selection-start-column="56" selection-end-line="50" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29310346">
-          <caret line="10" column="106" selection-start-line="10" selection-start-column="106" selection-end-line="10" selection-end-column="106" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contribution_pie.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-143.84616">
-          <caret line="364" column="71" selection-start-line="364" selection-start-column="71" selection-end-line="364" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/sales_comparison.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="157" column="27" selection-start-line="157" selection-start-column="27" selection-end-line="157" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sales_comparison.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46896553">
-          <caret line="387" column="65" selection-start-line="387" selection-start-column="65" selection-end-line="387" selection-end-column="65" />
+        <state vertical-scroll-proportion="0.9438944">
+          <caret line="100" column="9" selection-start-line="100" selection-start-column="9" selection-end-line="100" selection-end-column="9" />
           <folding />
         </state>
       </provider>

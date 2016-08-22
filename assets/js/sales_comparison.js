@@ -11,47 +11,53 @@ function drawVisualization() {
 
     //===== For sales Comparison
     var data = google.visualization.arrayToDataTable([
-        ['Month', 'Sales'],
-        ['Jan 2005',  23232323],
-        ['Jan 2006',  12121212],
-        ['Jan 2007',  12239090],
-        ['Jan 2008',  40000000],
-        ['Jan 2009',  23000000],
-        ['Jan 2010',  19900000],
-        ['Jan 2011',  29900000],
-        ['Jan 2012',  12000000],
-        ['Jan 2013',  43000000],
-        ['Jan 2014',  50000000],
-        ['Jan 2015',  20000000],
-        ['Jan 2016',  60000000]
+        ['Month',       'Sales',        'Sales line',   { role: 'annotation' }],
+        ['Jan 2005',    23232323,       23232323,       '23.2%'],
+        ['Jan 2006',    12121212,       12121212,       '12.1%'],
+        ['Jan 2007',    12239090,       12239090,       '12.2%'],
+        ['Jan 2008',    40000000,       40000000,       '40%'],
+        ['Jan 2009',    23000000,       23000000,       '23%'],
+        ['Jan 2010',    19900000,       19900000,       '19%'],
+        ['Jan 2011',    29900000,       29900000,       '29.9%'],
+        ['Jan 2012',    12000000,       12000000,       '12%'],
+        ['Jan 2013',    43000000,       43000000,       '43%'],
+        ['Jan 2014',    50000000,       50000000,       '50%'],
+        ['Jan 2015',    20000000,       20000000,       '20%'],
+        ['Jan 2016',    60000000,       60000000,       '60%']
     ]);
 
     var options = {
         //title : 'Breakdown Graph',
+        colors:['#494'],
         vAxis: {title: 'Sales(TK)'},
         hAxis: {title: 'Years / Time'},
         seriesType: 'bars',
-        series: {1: {type: 'line'}}
+        curveType: 'function',
+        series: {
+            1: {type: 'line', axis: 'distance', pointSize:10, color:'#906', axisTitle:'kjlk'},
+            2: {type: 'line'}
+        },
+        //legend : {position: 'top', textStyle: {color: 'blue', fontSize: 16}}
     };
 
-    var chart = new google.visualization.ComboChart(document.getElementById('chart_div'));
+    var chart = new google.visualization.ColumnChart(document.getElementById('chart_div'));
     chart.draw(data, options);
 
     //===== For Brand Comparison
     var data_brand = google.visualization.arrayToDataTable([
-        ['Month', 'Chinball', 'Ocean', 'Arc'],
-        ['Jan 2005',  12121212,   13131313,          14141414 ],
-        ['Jan 2006',  21212121,   21212323,          23343434 ],
-        ['Jan 2007',  45454545,   34343434,          34454545 ],
-        ['Jan 2008',  15151515,   16161616,          21212121 ],
-        ['Jan 2009',  15115151,   32322323,          41414141 ],
-        ['Jan 2010',  65656565,   42424242,          65656565 ],
-        ['Jan 2011',  36363636,   29292929,          57575757 ],
-        ['Jan 2012',  46464646,   56565656,          78787878 ],
-        ['Jan 2013',  14714745,   15915935,          35815847 ],
-        ['Jan 2014',  45685231,   25845615,          15948763 ],
-        ['Jan 2015',  68425371,   65765128,          56847512 ],
-        ['Jan 2016',  77441122,   22884455,          11441141 ]
+        ['Month',       'Chinball',     {role:'annotation'},    'Ocean',        {role:'annotation'},    'Arc',          {role:'annotation'}],
+        ['Jan 2005',    12121212,       '10%',                  13131313,       '10%',                  14141414,       '10%'],
+        ['Jan 2006',    21212121,       '10%',                  21212323,       '10%',                  23343434,       '10%'],
+        ['Jan 2007',    45454545,       '10%',                  34343434,       '10%',                  34454545,       '10%'],
+        ['Jan 2008',    15151515,       '10%',                  16161616,       '10%',                  21212121,       '10%'],
+        ['Jan 2009',    15115151,       '10%',                  32322323,       '10%',                  41414141,       '10%'],
+        ['Jan 2010',    65656565,       '10%',                  42424242,       '10%',                  65656565,       '10%'],
+        ['Jan 2011',    36363636,       '10%',                  29292929,       '10%',                  57575757,       '10%'],
+        ['Jan 2012',    46464646,       '10%',                  56565656,       '10%',                  78787878,       '10%'],
+        ['Jan 2013',    14714745,       '10%',                  15915935,       '10%',                  35815847,       '10%'],
+        ['Jan 2014',    45685231,       '10%',                  25845615,       '10%',                  15948763,       '10%'],
+        ['Jan 2015',    68425371,       '10%',                  65765128,       '10%',                  56847512,       '10%'],
+        ['Jan 2016',    77441122,       '10%',                  22884455,       '10%',                  11441141,       '10%']
     ]);
     var options_brand = {
         //title : 'Breakdown Graph',
@@ -59,7 +65,40 @@ function drawVisualization() {
         vAxis: {title: 'Sales(TK)'},
         hAxis: {title: 'Years / Time'},
         seriesType: 'bars',
-        series: {5: {type: 'line'}}
+        /*series: {
+            0: { type: 'line', annotations: { textStyle: {fontSize: 12, color: 'red' } } },
+            1: { type: 'line', annotations: { textStyle: {fontSize: 12, color: 'blue' } } },
+            2: { type: 'line', annotations: { textStyle: {fontSize: 12, color: 'green' } } }
+        }*/
+        annotations: {
+            boxStyle: {
+                // Color of the box outline.
+                stroke: '#888',
+                // Thickness of the box outline.
+                strokeWidth: 1,
+                // x-radius of the corner curvature.
+                rx: 10,
+                // y-radius of the corner curvature.
+                ry: 10,
+                // Attributes for linear gradient fill.
+                gradient: {
+                    // Start color for gradient.
+                    color1: '#fbf6a7',
+                    // Finish color for gradient.
+                    color2: '#33b679',
+                    // Where on the boundary to start and
+                    // end the color1/color2 gradient,
+                    // relative to the upper left corner
+                    // of the boundary.
+                    x1: '0%', y1: '0%',
+                    x2: '100%', y2: '100%',
+                    // If true, the boundary for x1,
+                    // y1, x2, and y2 is the box. If
+                    // false, it's the entire chart.
+                    useObjectBoundingBoxUnits: true
+                }
+            }
+        }
     };
 
     var chart = new google.visualization.ComboChart(document.getElementById('chart_div_brand'));
