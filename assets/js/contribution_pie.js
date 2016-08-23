@@ -369,6 +369,7 @@ function drawChart() {
 *------------------------------------------------------------------------------
 * Expenses for Client starts from here
 * -----------------------------------------------------------------------------*/
+
     //===== Expense chart / Client (gift) ===========================
     var data_expense_gift = google.visualization.arrayToDataTable([
         ['Task', 'Per Person'],
@@ -569,13 +570,13 @@ function drawChart() {
 
     //===== Expense chart / Client (Broken) ===========================
     var data_expense_broken = google.visualization.arrayToDataTable([
-        ['Task', 'Per Person'],
-        ['Habib', 500000],
-        ['Labib', 450000],
-        ['Masud', 320000],
-        ['Ripon', 660000],
+        ['Task',    'Per Person'],
+        ['Habib',   500000],
+        ['Labib',   450000],
+        ['Masud',   320000],
+        ['Ripon',   660000],
         ['Snigdho', 470000],
-        ['Polash',590000]
+        ['Polash',  590000]
     ]);
 
     var options_expense_broken = {
@@ -603,13 +604,10 @@ function drawChart() {
 
     //===== Total Expense chart (Including all) ===========================
     var data_expense_total = google.visualization.arrayToDataTable([
-        ['Task', 'Per Person'],
-        ['Habib', 500000],
-        ['Labib', 450000],
-        ['Masud', 320000],
-        ['Ripon', 660000],
-        ['Snigdho', 470000],
-        ['Polash',590000]
+        ['Task',    'Per Person'],
+        ['Client wise',   500000],
+        ['Employee wise',   450000],
+        ['Others',   320000]
     ]);
 
     var options_expense_total = {
