@@ -14,10 +14,20 @@ window.onload = function () {
             },
             animationEnabled: true,
             axisY: {
-                title: "Sales(milion)",
+                title: "Sales(milion in Tk.)",
                 valueFormatString: "#0,,.",
                 suffix: " m"
             },
+            axisX: {
+                title: "Years/ Time",
+                font: {color: '#ff0000'},
+
+
+
+
+            },
+
+
 
             data: [
                 {
@@ -86,10 +96,15 @@ window.onload = function () {
             },
             animationEnabled: true,
             axisY: {
-                title: "Sales(Qty)",
+                title: "Sales(No. of Qty)",
                 valueFormatString: "##0,.",
                 suffix: " 000"
             },
+            axisX: {
+                title: "Years/ Time",
+
+            },
+
             data: [
                 {
                     toolTipContent: "{y} qty",
@@ -128,9 +143,13 @@ window.onload = function () {
             },
             animationEnabled: true,
             axisY: {
-                title: "Product(Qty)",
+                title: "Product(No. of Qty)",
                 valueFormatString: "##0,.",
                 suffix: " 000"
+            },
+            axisX: {
+                title: "Years/ Time",
+
             },
             data: [
                 {
@@ -170,10 +189,15 @@ window.onload = function () {
             },
             animationEnabled: true,
             axisY: {
-                title: "Profit(milion)",
+                title: "Profit(milion in Tk.)",
                 valueFormatString: "##0,,.",
                 suffix: " m"
             },
+            axisX: {
+                title: "Years/ Time",
+
+            },
+
             data: [
                 {
                     toolTipContent: "{y} Tk.",

@@ -79,8 +79,38 @@
                 <div class="col-md-12">
                     <div class="card">
                         <div class="row" id="site-activity">
-                            <div class="col-md-12" style="height: 100%">
-                                sdfsd
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="panel">
+                                            <div id="report-button">
+                                                <div class="panel-heading" style="text-align: center">
+                                                    <span class="panel-title"><h1>Welcome To International House Wear</h1></span>
+                                                </div>
+                                                <div class="panel-body no-padding-t text-center">
+                                                    <h6 class="text-light-gray text-semibold text-xs text-center" style="margin:20px 0 10px 0;">Target Achivement - Deficit</h6>
+                                                    <a class="btn btn-primary" href="sales_qty_1.php">
+                                                        <strong>Target Achivement - Deficit</strong>
+                                                    </a>
+
+                                                    <hr>
+
+                                                    <h6 class="text-light-gray text-semibold text-xs text-center" style="margin:20px 0 10px 0;">Growth Chart Comparison</h6>
+                                                    <a class="btn btn-primary" href="sales_comparison.php">
+                                                        <strong>Growth Chart Comparison</strong>
+                                                    </a>
+
+                                                    <hr>
+
+                                                    <h6 class="text-light-gray text-semibold text-xs text-center" style="margin:20px 0 10px 0;">Contribution Chart</h6>
+                                                    <a class="btn btn-primary" href="contribution_pie.php">
+                                                        <strong>Contribution Chart</strong>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div><!--end .col -->
 
                         </div>

@@ -42,7 +42,7 @@
 
             <!-- Multiple Chart -->
 
-            <li class="gui-folder">
+            <!--<li class="gui-folder">
                 <a>
                     <div class="gui-icon"><i class="glyphicon glyphicon-list-alt"></i></div>
                     <span class="title">Charts</span>
@@ -53,7 +53,7 @@
                     <li><a href="default_column_chart.php" ><span class="title">Default Column Chart</span></a></li>
                     <li><a href="combo.php" ><span class="title">Combo Chart</span></a></li>
                 </ul>
-            </li>
+            </li>-->
 
         </ul>
         <!-- END MAIN MENU -->
