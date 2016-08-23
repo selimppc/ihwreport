@@ -161,4 +161,477 @@ function drawChart() {
     var chart = new google.visualization.PieChart(document.getElementById('donutchart_skv'));
     chart.draw(data_skv, options_skv);
 
+/*
+*-------------------------------------------------------------------------------
+* Expenses for Employee starts from here
+* -----------------------------------------------------------------------------*/
+
+    //===== Expense chart / Employee Salary =====================================
+    var data_expense_salary = google.visualization.arrayToDataTable([
+        ['Task', 'Per Person'],
+        ['Habib', 500000],
+        ['Labib', 450000],
+        ['Masud', 320000],
+        ['Ripon', 660000],
+        ['Snigdho', 470000],
+        ['Polash',590000]
+    ]);
+
+    var options_expense_salary = {
+        //title: 'Employee Salary',
+        title: 'Salary',
+        titleTextStyle:{
+            fontSize:'16'
+        },
+        pieSliceTextStyle: {
+            color: 'white',
+        },
+        pieHole: 0.4,
+        //pieSliceText:'value',
+        pieSliceText:'percentage',
+        //pieSliceText:'label',
+        is3D:true,
+        //legend:{position: 'bottom'},
+        //legend:{position: 'top'},
+        legend:{position: 'labeled'},
+
+    };
+    var chart = new google.visualization.PieChart(document.getElementById('expense_salary'));
+    chart.draw(data_expense_salary, options_expense_salary);
+
+    //===== Expense chart / Employee Intensive =====================================
+    var data_expense_intensive = google.visualization.arrayToDataTable([
+        ['Task', 'Per Person'],
+        ['Habib', 500000],
+        ['Labib', 450000],
+        ['Masud', 320000],
+        ['Ripon', 660000],
+        ['Snigdho', 470000],
+        ['Polash',590000]
+    ]);
+
+    var options_expense_intensive = {
+        //title: 'Employee Intensive',
+        title: 'Intensive',
+        titleTextStyle:{
+            fontSize:'16'
+        },
+        pieSliceTextStyle: {
+            color: 'white',
+        },
+        pieHole: 0.4,
+        //pieSliceText:'value',
+        pieSliceText:'percentage',
+        //pieSliceText:'label',
+        is3D:true,
+        //legend:{position: 'bottom'},
+        //legend:{position: 'top'},
+        legend:{position: 'labeled'},
+
+    };
+    var chart = new google.visualization.PieChart(document.getElementById('expense_intensive'));
+    chart.draw(data_expense_intensive, options_expense_intensive);
+
+    //===== Expense chart / Employee TA(Traveling Allowance) ===========================
+    var data_expense_ta = google.visualization.arrayToDataTable([
+        ['Task', 'Per Person'],
+        ['Habib', 500000],
+        ['Labib', 450000],
+        ['Masud', 320000],
+        ['Ripon', 660000],
+        ['Snigdho', 470000],
+        ['Polash',590000]
+    ]);
+
+    var options_expense_ta = {
+        //title: 'Employee Travelling Allowance',
+        title: 'Travelling Allowance',
+        titleTextStyle:{
+            fontSize:'16'
+        },
+        pieSliceTextStyle: {
+            color: 'white',
+        },
+        pieHole: 0.4,
+        //pieSliceText:'value',
+        pieSliceText:'percentage',
+        //pieSliceText:'label',
+        is3D:true,
+        //legend:{position: 'bottom'},
+        //legend:{position: 'top'},
+        legend:{position: 'labeled'},
+
+    };
+    var chart = new google.visualization.PieChart(document.getElementById('expense_ta'));
+    chart.draw(data_expense_ta, options_expense_ta);
+
+    //===== Expense chart / Employee DA(Dearness Allowance) ===========================
+    var data_expense_da = google.visualization.arrayToDataTable([
+        ['Task', 'Per Person'],
+        ['Habib', 500000],
+        ['Labib', 450000],
+        ['Masud', 320000],
+        ['Ripon', 660000],
+        ['Snigdho', 470000],
+        ['Polash',590000]
+    ]);
+
+    var options_expense_da = {
+        //title: 'Employee Dearness Allowance',
+        title: 'Dearness Allowance',
+        titleTextStyle:{
+            fontSize:'16'
+        },
+        pieSliceTextStyle: {
+            color: 'white',
+        },
+        pieHole: 0.4,
+        //pieSliceText:'value',
+        pieSliceText:'percentage',
+        //pieSliceText:'label',
+        is3D:true,
+        //legend:{position: 'bottom'},
+        //legend:{position: 'top'},
+        legend:{position: 'labeled'},
+
+    };
+    var chart = new google.visualization.PieChart(document.getElementById('expense_da'));
+    chart.draw(data_expense_da, options_expense_da);
+
+    //===== Expense chart / Employee Bonus ===========================
+    var data_expense_bonus = google.visualization.arrayToDataTable([
+        ['Task', 'Per Person'],
+        ['Habib', 500000],
+        ['Labib', 450000],
+        ['Masud', 320000],
+        ['Ripon', 660000],
+        ['Snigdho', 470000],
+        ['Polash',590000]
+    ]);
+
+    var options_expense_bonus = {
+        //title: 'Employee Bonus',
+        title: 'Bonus',
+        titleTextStyle:{
+            fontSize:'16'
+        },
+        pieSliceTextStyle: {
+            color: 'white',
+        },
+        pieHole: 0.4,
+        //pieSliceText:'value',
+        pieSliceText:'percentage',
+        //pieSliceText:'label',
+        is3D:true,
+        //legend:{position: 'bottom'},
+        //legend:{position: 'top'},
+        legend:{position: 'labeled'},
+
+    };
+    var chart = new google.visualization.PieChart(document.getElementById('expense_bonus'));
+    chart.draw(data_expense_bonus, options_expense_bonus);
+
+    //===== Expense chart / Employee (Others) ===========================
+    var data_expense_others = google.visualization.arrayToDataTable([
+        ['Task', 'Per Person'],
+        ['Habib', 500000],
+        ['Labib', 450000],
+        ['Masud', 320000],
+        ['Ripon', 660000],
+        ['Snigdho', 470000],
+        ['Polash',590000]
+    ]);
+
+    var options_expense_others = {
+        //title: 'Other expenses for Employee',
+        title: 'Others',
+        titleTextStyle:{
+            fontSize:'16'
+        },
+        pieSliceTextStyle: {
+            color: 'white',
+        },
+        pieHole: 0.4,
+        //pieSliceText:'value',
+        pieSliceText:'percentage',
+        //pieSliceText:'label',
+        is3D:true,
+        //legend:{position: 'bottom'},
+        //legend:{position: 'top'},
+        legend:{position: 'labeled'},
+
+    };
+    var chart = new google.visualization.PieChart(document.getElementById('expense_others'));
+    chart.draw(data_expense_others, options_expense_others);
+
+
+/*
+*------------------------------------------------------------------------------
+* Expenses for Client starts from here
+* -----------------------------------------------------------------------------*/
+    //===== Expense chart / Client (gift) ===========================
+    var data_expense_gift = google.visualization.arrayToDataTable([
+        ['Task', 'Per Person'],
+        ['Habib', 500000],
+        ['Labib', 450000],
+        ['Masud', 320000],
+        ['Ripon', 660000],
+        ['Snigdho', 470000],
+        ['Polash',590000]
+    ]);
+
+    var options_expense_gift = {
+        //title: 'Other expenses for Employee',
+        title: 'Gift',
+        titleTextStyle:{
+            fontSize:'16'
+        },
+        pieSliceTextStyle: {
+            color: 'white',
+        },
+        pieHole: 0.4,
+        //pieSliceText:'value',
+        pieSliceText:'percentage',
+        //pieSliceText:'label',
+        is3D:true,
+        //legend:{position: 'bottom'},
+        //legend:{position: 'top'},
+        legend:{position: 'labeled'},
+
+    };
+    var chart = new google.visualization.PieChart(document.getElementById('expense_gift'));
+    chart.draw(data_expense_gift, options_expense_gift);
+
+    //===== Expense chart / Client (donation) ===========================
+    var data_expense_donation = google.visualization.arrayToDataTable([
+        ['Task', 'Per Person'],
+        ['Habib', 500000],
+        ['Labib', 450000],
+        ['Masud', 320000],
+        ['Ripon', 660000],
+        ['Snigdho', 470000],
+        ['Polash',590000]
+    ]);
+
+    var options_expense_donation = {
+        //title: 'Other expenses for Employee',
+        title: 'Donation',
+        titleTextStyle:{
+            fontSize:'16'
+        },
+        pieSliceTextStyle: {
+            color: 'white',
+        },
+        pieHole: 0.4,
+        //pieSliceText:'value',
+        pieSliceText:'percentage',
+        //pieSliceText:'label',
+        is3D:true,
+        //legend:{position: 'bottom'},
+        //legend:{position: 'top'},
+        legend:{position: 'labeled'},
+
+    };
+    var chart = new google.visualization.PieChart(document.getElementById('expense_donation'));
+    chart.draw(data_expense_donation, options_expense_donation);
+
+    //===== Expense chart / Client (promotion/Discount) ===========================
+    var data_expense_discount = google.visualization.arrayToDataTable([
+        ['Task', 'Per Person'],
+        ['Habib', 500000],
+        ['Labib', 450000],
+        ['Masud', 320000],
+        ['Ripon', 660000],
+        ['Snigdho', 470000],
+        ['Polash',590000]
+    ]);
+
+    var options_expense_discount = {
+        //title: 'Other expenses for Employee',
+        title: 'Promotion/Discount',
+        titleTextStyle:{
+            fontSize:'16'
+        },
+        pieSliceTextStyle: {
+            color: 'white',
+        },
+        pieHole: 0.4,
+        //pieSliceText:'value',
+        pieSliceText:'percentage',
+        //pieSliceText:'label',
+        is3D:true,
+        //legend:{position: 'bottom'},
+        //legend:{position: 'top'},
+        legend:{position: 'labeled'},
+
+    };
+    var chart = new google.visualization.PieChart(document.getElementById('expense_discount'));
+    chart.draw(data_expense_discount, options_expense_discount);
+
+    //===== Expense chart / Client (normal Discount) ===========================
+    var data_expense_discount_normal = google.visualization.arrayToDataTable([
+        ['Task', 'Per Person'],
+        ['Habib', 500000],
+        ['Labib', 450000],
+        ['Masud', 320000],
+        ['Ripon', 660000],
+        ['Snigdho', 470000],
+        ['Polash',590000]
+    ]);
+
+    var options_expense_discount_normal = {
+        //title: 'Other expenses for Employee',
+        title: 'Normal Discount',
+        titleTextStyle:{
+            fontSize:'16'
+        },
+        pieSliceTextStyle: {
+            color: 'white',
+        },
+        pieHole: 0.4,
+        //pieSliceText:'value',
+        pieSliceText:'percentage',
+        //pieSliceText:'label',
+        is3D:true,
+        //legend:{position: 'bottom'},
+        //legend:{position: 'top'},
+        legend:{position: 'labeled'},
+
+    };
+    var chart = new google.visualization.PieChart(document.getElementById('expense_discount_normal'));
+    chart.draw(data_expense_discount_normal, options_expense_discount_normal);
+
+    //===== Expense chart / Client (Return) ===========================
+    var data_expense_return = google.visualization.arrayToDataTable([
+        ['Task', 'Per Person'],
+        ['Habib', 500000],
+        ['Labib', 450000],
+        ['Masud', 320000],
+        ['Ripon', 660000],
+        ['Snigdho', 470000],
+        ['Polash',590000]
+    ]);
+
+    var options_expense_return = {
+        //title: 'Other expenses for Employee',
+        title: 'Return',
+        titleTextStyle:{
+            fontSize:'16'
+        },
+        pieSliceTextStyle: {
+            color: 'white',
+        },
+        pieHole: 0.4,
+        //pieSliceText:'value',
+        pieSliceText:'percentage',
+        //pieSliceText:'label',
+        is3D:true,
+        //legend:{position: 'bottom'},
+        //legend:{position: 'top'},
+        legend:{position: 'labeled'},
+
+    };
+    var chart = new google.visualization.PieChart(document.getElementById('expense_return'));
+    chart.draw(data_expense_return, options_expense_return);
+
+    //===== Expense chart / Client (Damaged) ===========================
+    var data_expense_damaged = google.visualization.arrayToDataTable([
+        ['Task', 'Per Person'],
+        ['Habib', 500000],
+        ['Labib', 450000],
+        ['Masud', 320000],
+        ['Ripon', 660000],
+        ['Snigdho', 470000],
+        ['Polash',590000]
+    ]);
+
+    var options_expense_damaged = {
+        //title: 'Other expenses for Employee',
+        title: 'Damaged',
+        titleTextStyle:{
+            fontSize:'16'
+        },
+        pieSliceTextStyle: {
+            color: 'white',
+        },
+        pieHole: 0.4,
+        //pieSliceText:'value',
+        pieSliceText:'percentage',
+        //pieSliceText:'label',
+        is3D:true,
+        //legend:{position: 'bottom'},
+        //legend:{position: 'top'},
+        legend:{position: 'labeled'},
+
+    };
+    var chart = new google.visualization.PieChart(document.getElementById('expense_damaged'));
+    chart.draw(data_expense_damaged, options_expense_damaged);
+
+    //===== Expense chart / Client (Broken) ===========================
+    var data_expense_broken = google.visualization.arrayToDataTable([
+        ['Task', 'Per Person'],
+        ['Habib', 500000],
+        ['Labib', 450000],
+        ['Masud', 320000],
+        ['Ripon', 660000],
+        ['Snigdho', 470000],
+        ['Polash',590000]
+    ]);
+
+    var options_expense_broken = {
+        //title: 'Other expenses for Employee',
+        title: 'Broken',
+        titleTextStyle:{
+            fontSize:'16'
+        },
+        pieSliceTextStyle: {
+            color: 'white',
+        },
+        pieHole: 0.4,
+        //pieSliceText:'value',
+        pieSliceText:'percentage',
+        //pieSliceText:'label',
+        is3D:true,
+        //legend:{position: 'bottom'},
+        //legend:{position: 'top'},
+        legend:{position: 'labeled'},
+
+    };
+    var chart = new google.visualization.PieChart(document.getElementById('expense_broken'));
+    chart.draw(data_expense_broken, options_expense_broken);
+
+
+    //===== Total Expense chart (Including all) ===========================
+    var data_expense_total = google.visualization.arrayToDataTable([
+        ['Task', 'Per Person'],
+        ['Habib', 500000],
+        ['Labib', 450000],
+        ['Masud', 320000],
+        ['Ripon', 660000],
+        ['Snigdho', 470000],
+        ['Polash',590000]
+    ]);
+
+    var options_expense_total = {
+        //title: 'Other expenses for Employee',
+        title: 'Employee + Client + Others',
+        titleTextStyle:{
+            fontSize:'16'
+        },
+        pieSliceTextStyle: {
+            color: 'white',
+        },
+        pieHole: 0.4,
+        //pieSliceText:'value',
+        pieSliceText:'percentage',
+        //pieSliceText:'label',
+        is3D:true,
+        //legend:{position: 'bottom'},
+        //legend:{position: 'top'},
+        legend:{position: 'labeled'},
+
+    };
+    var chart = new google.visualization.PieChart(document.getElementById('expense_total'));
+    chart.draw(data_expense_total, options_expense_total);
+
 }
