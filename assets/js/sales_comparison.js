@@ -434,13 +434,19 @@ function drawVisualization() {
 * */
     //===== For Target Achievement Deficit
     var data_deficit = google.visualization.arrayToDataTable([
-        ['Year',        '2015',    {role:'annotation'},     '2016', {role:'annotation'}],
-        ['Jan ',        1000,       '20%',                  400,    '15%'],
-        ['Feb ',        1170,       '20%',                  460,    '15%'],
-        ['Mar ',        660,        '20%',                  1120,   '15%'],
-        ['Apr ',        660,        '20%',                  1120,   '15%'],
-        ['May ',        660,        '20%',                  1120,   '15%'],
-        ['June ',       1030,       '20%',                  540,    '15%']
+        ['Year',        'Achievement',  {role:'annotation'},    'Goal', {role:'annotation'},    'No Profit No Loss'],
+        ['Jan 2005',    300,            '20%',                  400,    '15%',                  850],
+        ['Jan 2006',    450,            '20%',                  500,    '15%',                  850],
+        ['Jan 2007',    600,            '20%',                  600,    '15%',                  850],
+        ['Jan 2008',    800,            '20%',                  700,    '15%',                  850],
+        ['Jan 2009',    750,            '20%',                  800,    '15%',                  850],
+        ['Jan 2010',    890,            '20%',                  900,    '15%',                  850],
+        ['Jan 2011',    1100,           '20%',                  1000,   '15%',                  850],
+        ['Jan 2012',    1000,           '20%',                  1050,   '15%',                  850],
+        ['Jan 2013',    1250,           '20%',                  1100,   '15%',                  850],
+        ['Jan 2014',    1000,           '20%',                  1130,   '15%',                  850],
+        ['Jan 2015',    1100,           '20%',                  1180,   '15%',                  850],
+        ['Jan 2016',    1250,           '20%',                  1200,   '15%',                  850]
     ]);
 
     var options_deficit = {
@@ -449,12 +455,39 @@ function drawVisualization() {
         vAxis: {minValue: 0, title:'Sales(Tk)'},
         //curveType:'function'
         series:{
-            0:{ pointSize:10,},
-            1:{ pointSize:10}
+            0:{ pointSize:7},
+            1:{ pointSize:7},
+            2:{ pointSize:3, color:'#040'}
         },
         aggregationTarget: 'category',
         //selectionMode: 'multiple',
         //tooltip: {trigger: 'selection'}
+        annotations: {
+            boxStyle: {
+                stroke: '#909090',         // Color of the box outline.
+                strokeWidth: 1,         // Thickness of the box outline.
+                rx: 5,                 // x-radius of the corner curvature.
+                ry: 5,                 // y-radius of the corner curvature.
+                gradient: {
+                    color1: '#fff',      // Start color for gradient.
+                    color2: '#fff',      // Finish color for gradient.
+                    x1: '0%', y1: '0%',
+                    x2: '100%', y2: '100%',
+                    useObjectBoundingBoxUnits: true
+                }
+            },
+            textStyle: {
+                //fontName: 'Times-Roman',
+                fontSize: 14,
+                auraColor: 'transparent',
+                bold: true,
+                //italic: true,
+                color: '#202020',     // The color of the text.
+                //opacity: 0.8          // The transparency of the text.
+            },
+            //style: 'line',
+            //alwaysOutside: false,
+        }
     };
 
     var chart = new google.visualization.AreaChart(document.getElementById('chart_target_achievement_deficit'));
