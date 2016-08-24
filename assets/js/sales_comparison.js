@@ -426,4 +426,38 @@ function drawVisualization() {
 
     var chart = new google.visualization.ComboChart(document.getElementById('chart_div_income'));
     chart.draw(data_income, options_income);
+
+/*
+* --------------------------------------------------------------------------------------------------------------------------------------------------------------------
+*                                                               Area Chart Script Starts From Here
+* --------------------------------------------------------------------------------------------------------------------------------------------------------------------
+* */
+    //===== For Target Achievement Deficit
+    var data_deficit = google.visualization.arrayToDataTable([
+        ['Year',        '2015',    {role:'annotation'},     '2016', {role:'annotation'}],
+        ['Jan ',        1000,       '20%',                  400,    '15%'],
+        ['Feb ',        1170,       '20%',                  460,    '15%'],
+        ['Mar ',        660,        '20%',                  1120,   '15%'],
+        ['Apr ',        660,        '20%',                  1120,   '15%'],
+        ['May ',        660,        '20%',                  1120,   '15%'],
+        ['June ',       1030,       '20%',                  540,    '15%']
+    ]);
+
+    var options_deficit = {
+        //title: 'Company Performance',
+        hAxis: {title: 'Years/Time',  titleTextStyle: {color: '#333'}},
+        vAxis: {minValue: 0, title:'Sales(Tk)'},
+        //curveType:'function'
+        series:{
+            0:{ pointSize:10,},
+            1:{ pointSize:10}
+        },
+        aggregationTarget: 'category',
+        //selectionMode: 'multiple',
+        //tooltip: {trigger: 'selection'}
+    };
+
+    var chart = new google.visualization.AreaChart(document.getElementById('chart_target_achievement_deficit'));
+    chart.draw(data_deficit, options_deficit);
+
 }
