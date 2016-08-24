@@ -182,14 +182,14 @@
                                     </div>
                                     <div class="extra-text-bottom">
                                         <ul>
-                                            <li>Total Sales Amount : Tk. 54,000,000.00/=</li>
+                                            <li>Total Delivery Qty. : 3,000,00</li>
                                             <li>Year : 2016</li>
                                         </ul>
                                     </div>
                                     <table class="table">
                                         <tr>
                                             <th colspan="3">
-                                                Success(89.78%)<i class="md md-trending-up"></i>
+                                                Success(45.78%)<i class="md md-trending-up"></i>
                                                 <div class="progress progress-hairline">
                                                     <div class="progress-bar progress-bar-primary-dark" style="width:89.78%"></div>
                                                 </div>
@@ -197,15 +197,15 @@
                                         </tr>
                                         <tr>
                                             <th colspan="3">
-                                                Improvement(72.56%)<i class="md md-trending-up"></i>
+                                                Improvement(25.56%)<i class="md md-trending-up"></i>
                                                 <div class="progress progress-hairline">
                                                     <div class="progress-bar progress-bar-primary-dark" style="width:72.56%"></div>
                                                 </div>
                                             </th>
                                         </tr>
-                                        <tr><th>Cost</th><td>:</td><td>Tk. 54,000,000.00/=</td></tr>
-                                        <tr><th>Revenue</th><td>:</td><td>Tk. 3,000,000.00/=</td></tr>
-                                        <tr><th>Expense</th><td>:</td><td>Tk. 51,000,000.00/=</td></tr>
+                                        <tr><th>Stock Qty.</th><td>:</td><td>5,000,00</td></tr>
+                                        <tr><th>Delivery Qty.</th><td>:</td><td>3,000,00</td></tr>
+
                                     </table>
                                 </div>
                             </div>
