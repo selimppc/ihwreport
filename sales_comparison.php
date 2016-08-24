@@ -330,13 +330,13 @@
                         </div>
                     </div>
 
-                    <!--===== For Client Maximum Growth Pattern ======================================================-->
+                    <!--===== For Live Break-Event Point Analysis (Profit-Loss Analysis) ================================-->
                     <div class="card">
                         <div class="row" id="site-activity">
                             <div class="col-md-12">
                                 <div class="col-md-9">
                                     <div class="card-head text-center">
-                                        <header>Sales (Client Maximum Growth Pattern)</header>
+                                        <header>Live Break-Event Point Analysis (Profit-Loss Analysis)</header>
                                     </div><!--end .card-head -->
                                     <div id="chart_div_client_max" style="width: 100%; height: 500px;"></div>
                                 </div>
