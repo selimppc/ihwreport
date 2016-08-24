@@ -451,44 +451,158 @@
                             </div>
                         </div>
                     </div>
-                    <!--===== End Graph=====-->
-
-
-                    <!--<div class="card">
+                    <!--------------------------------------------------------------------------------------------------->
+                    <!--===== For New Contribution Charts of Employee wise in a single div=============================-->
+                    <!--------------------------------------------------------------------------------------------------->
+                    <div class="card">
                         <div class="row" id="site-activity">
                             <div class="col-md-12">
-                                <div class="card-head">
-                                    <header>Today's stats</header>
+                                <div class="card-head text-center">
+                                    <header>Expense chart (Employee wise)</header>
                                 </div>
-                                <div class="card-body height-12>
-											<strong>214</strong> members
-											<span class="pull-right text-success text-sm">0,18% <i class="md md-trending-up"></i></span>
-                                <div class="progress progress-hairline">
-                                    <div class="progress-bar progress-bar-primary-dark" style="width:43%"></div>
+                                <!--===== For Expense chart / Employee Salary ================-->
+                                <div class="col-md-6" style="position: relative; padding:0 5%; ">
+                                    <!--<div class="card-head text-center">
+                                        <header>Expense chart / Employee Salary</header>
+                                    </div>-->
+                                    <div id="expense_salary" style="width: 100%; height: 400px;">Loading...</div>
                                 </div>
-                                756 pageviews
-                                <span class="pull-right text-success text-sm">0,68% <i class="md md-trending-up"></i></span>
-                                <div class="progress progress-hairline">
-                                    <div class="progress-bar progress-bar-primary-dark" style="width:11%"></div>
+
+                                <!--===== For Expense chart / Employee Intensive =============-->
+                                <div class="col-md-6" style="position: relative; padding:0 5%; ">
+                                    <!--<div class="card-head text-center">
+                                        <header>Expense chart / Employee Intensive</header>
+                                    </div>-->
+                                    <div id="expense_intensive" style="width: 100%; height: 400px;">Loading...</div>
                                 </div>
-                                291 bounce rates
-                                <span class="pull-right text-danger text-sm">21,08% <i class="md md-trending-down"></i></span>
-                                <div class="progress progress-hairline">
-                                    <div class="progress-bar progress-bar-danger" style="width:93%"></div>
+
+                                <!--===== For Expense chart / Employee Transport Allowance ===-->
+                                <div class="col-md-6" style="position: relative; padding:0 5%; ">
+                                    <!--<div class="card-head text-center">
+                                        <header>Expense chart / Employee Transport Allowance</header>
+                                    </div>-->
+                                    <div id="expense_ta" style="width: 100%; height: 400px;">Loading...</div>
                                 </div>
-                                32,301 visits
-                                <span class="pull-right text-success text-sm">0,18% <i class="md md-trending-up"></i></span>
-                                <div class="progress progress-hairline">
-                                    <div class="progress-bar progress-bar-primary-dark" style="width:63%"></div>
+
+                                <!--===== For Expense chart / Employee Dearness Allowance ===-->
+                                <div class="col-md-6" style="position: relative; padding:0 5%; ">
+                                    <!--<div class="card-head text-center">
+                                        <header>Expense chart / Employee Dearness Allowance</header>
+                                    </div>-->
+                                    <div id="expense_da" style="width: 100%; height: 400px;">Loading...</div>
                                 </div>
-                                132 pages
-                                <span class="pull-right text-success text-sm">0,18% <i class="md md-trending-up"></i></span>
-                                <div class="progress progress-hairline">
-                                    <div class="progress-bar progress-bar-primary-dark" style="width:47%"></div>
+
+                                <!--===== For Expense chart / Employee Bonus(yearly) ===-->
+                                <div class="col-md-6" style="position: relative; padding:0 5%; ">
+                                    <!--<div class="card-head text-center">
+                                        <header>Expense chart / Employee Bonus(yearly)</header>
+                                    </div>-->
+                                    <div id="expense_bonus" style="width: 100%; height: 400px;">Loading...</div>
+                                </div>
+
+                                <!--===== For Expense chart / Employee (Others) ===-->
+                                <div class="col-md-6" style="position: relative; padding:0 5%; ">
+                                    <!--<div class="card-head text-center">
+                                        <header>Expense chart / Employee Employee (Others)</header>
+                                    </div>-->
+                                    <div id="expense_others" style="width: 100%; height: 400px;">Loading...</div>
                                 </div>
                             </div>
                         </div>
-                    </div>-->
+                    </div>
+
+                    <!--------------------------------------------------------------------------------------------------->
+                    <!--===== For New Contribution Charts of client wise in a single div================================================-->
+                    <!--------------------------------------------------------------------------------------------------->
+                    <div class="card">
+                        <div class="row" id="site-activity">
+                            <div class="col-md-12">
+                                <div class="card-head text-center">
+                                    <header>Expense chart (Client wise)</header>
+                                </div>
+                                <!--===== For Expense chart / Client Gift ================-->
+                                <div class="col-md-6" style="position: relative; padding:0 5%; ">
+                                    <!--<div class="card-head text-center">
+                                        <header>Expense chart / Employee Salary</header>
+                                    </div>-->
+                                    <div id="expense_gift" style="width: 100%; height: 400px;">Loading...</div>
+                                </div>
+
+                                <!--===== For Expense chart / Client Donation =============-->
+                                <div class="col-md-6" style="position: relative; padding:0 5%; ">
+                                    <!--<div class="card-head text-center">
+                                        <header>Expense chart / Employee Intensive</header>
+                                    </div>-->
+                                    <div id="expense_donation" style="width: 100%; height: 400px;">Loading...</div>
+                                </div>
+
+                                <!--===== For Expense chart / Client (Promotion/Discount) ===-->
+                                <div class="col-md-6" style="position: relative; padding:0 5%; ">
+                                    <!--<div class="card-head text-center">
+                                        <header>Expense chart / Employee Transport Allowance</header>
+                                    </div>-->
+                                    <div id="expense_discount" style="width: 100%; height: 400px;">Loading...</div>
+                                </div>
+
+                                <!--===== For Expense chart / Client normal Discount ===-->
+                                <div class="col-md-6" style="position: relative; padding:0 5%; ">
+                                    <!--<div class="card-head text-center">
+                                        <header>Expense chart / Employee Dearness Allowance</header>
+                                    </div>-->
+                                    <div id="expense_discount_normal" style="width: 100%; height: 400px;">Loading...</div>
+                                </div>
+
+                                <!--===== For Expense chart / Client Return ===-->
+                                <div class="col-md-6" style="position: relative; padding:0 5%; ">
+                                    <!--<div class="card-head text-center">
+                                        <header>Expense chart / Employee Bonus(yearly)</header>
+                                    </div>-->
+                                    <div id="expense_return" style="width: 100%; height: 400px;">Loading...</div>
+                                </div>
+
+                                <!--===== For Expense chart / Client Damaged ===-->
+                                <div class="col-md-6" style="position: relative; padding:0 5%; ">
+                                    <!--<div class="card-head text-center">
+                                        <header>Expense chart / Employee Bonus(yearly)</header>
+                                    </div>-->
+                                    <div id="expense_damaged" style="width: 100%; height: 400px;">Loading...</div>
+                                </div>
+
+                                <!--===== For Expense chart / Client Broken ===-->
+                                <div class="col-md-6" style="position: relative; padding:0 5%; ">
+                                    <!--<div class="card-head text-center">
+                                        <header>Expense chart / Employee Bonus(yearly)</header>
+                                    </div>-->
+                                    <div id="expense_broken" style="width: 100%; height: 400px;">Loading...</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--------------------------------------------------------------------------------------------------->
+                    <!--===== For New Contribution Charts of client wise in a single div================================================-->
+                    <!--------------------------------------------------------------------------------------------------->
+                    <div class="card">
+                        <div class="row" id="site-activity">
+                            <div class="col-md-12">
+                                <div class="card-head text-center">
+                                    <header>Total Expense chart (Including all)</header>
+                                </div>
+                                <!--===== For Expense chart / Client Gift ================-->
+                                <div class="col-md-12" style="position: relative; padding:0 5%; ">
+                                    <!--<div class="card-head text-center">
+                                        <header>Expense chart / Employee Salary</header>
+                                    </div>-->
+                                    <div id="expense_total" style="width: 100%; height: 600px;">Loading...</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--===== End Graph=====-->
+
+
+
                 </div>
             </div>
         </section>
