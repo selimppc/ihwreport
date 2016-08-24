@@ -14,9 +14,9 @@ function drawVisualization() {
         ['Month',       'Sales',        'Sales line',   { role: 'annotation' }],
         /*['Jan 2005',    23232323,       23232323,       '23.2%'],
         ['Jan 2006',    12121212,       12121212,       '-12.1%'],
-        ['Jan 2007',    12239090,       12239090,       '+12.2%'],
+        ['Jan 2007',    12239090,       12239090,       '+12.2%'],*/
         ['Jan 2008',    40000000,       40000000,       '+40%'],
-        ['Jan 2009',    23000000,       23000000,       '-23%'],*/
+        ['Jan 2009',    23000000,       23000000,       '-23%'],
         ['Jan 2010',    19900000,       19900000,       '-19%'],
         ['Jan 2011',    29900000,       29900000,       '+29.9%'],
         ['Jan 2012',    12000000,       12000000,       '-12%'],
@@ -62,7 +62,8 @@ function drawVisualization() {
     ]);
     var options_brand = {
         //title : 'Breakdown Graph',
-        colors:['#205','#609','#a0d'],
+        //colors:['#205','#609','#a0d'],
+        colors:['#1a8763','#871b47','#999999'],
         vAxis: {title: 'Sales(TK)'},
         hAxis: {title: 'Years / Time'},
         seriesType: 'bars',
@@ -160,8 +161,8 @@ function drawVisualization() {
         seriesType: 'bars',
         series: {
             3: {type: 'line', pointSize:7, pointShape:'diamond'},
-            4: {type: 'line'},
-            5: {type: 'line'}
+            4: {type: 'line', pointSize:7, pointShape:'diamond'},
+            5: {type: 'line', pointSize:7, pointShape:'diamond'}
         },
         bar: {groupWidth:'90%'},
         curveType:'function',
@@ -335,9 +336,9 @@ function drawVisualization() {
         ['Month',     'Sales',          'Sales line',   {role:'annotation'},      'Profit Lavel'],
         /*['Jan 2005',  45645652,         45645652,       '45%',                     35353625],
         ['Jan 2006',  15915956,         15915956,       '45%',                     35353625],
-        ['Jan 2007',  41526325,         41526325,       '45%',                     35353625],
+        ['Jan 2007',  41526325,         41526325,       '45%',                     35353625],*/
         ['Jan 2008',  32563251,         32563251,       '45%',                     35353625],
-        ['Jan 2009',  24515632,         24515632,       '45%',                     35353625],*/
+        ['Jan 2009',  24515632,         24515632,       '45%',                     35353625],
         ['Jan 2010',  32512451,         32512451,       '35%',                     35353625],
         ['Jan 2011',  52632512,         52632512,       '+52%',                     35353625],
         ['Jan 2012',  32563212,         32563212,       '-32%',                     35353625],
@@ -480,9 +481,9 @@ function drawVisualization() {
         ['Year',        'Achievement',  {role:'annotation'},    'Goal', {role:'annotation'},    'No Profit No Loss'],
         /*['Jan 2005',    300,            '20%',                  400,    '15%',                  850],
         ['Jan 2006',    450,            '20%',                  500,    '15%',                  850],
-        ['Jan 2007',    600,            '20%',                  600,    '15%',                  850],
-        ['Jan 2008',    800,            '20%',                  700,    '15%',                  850],
-        ['Jan 2009',    750,            '20%',                  800,    '15%',                  850],*/
+        ['Jan 2007',    600,            '20%',                  600,    '15%',                  850],*/
+        ['Jan 2008',    800,            '20%',                  700,    '15%',                  1000],
+        ['Jan 2009',    750,            '20%',                  800,    '15%',                  1000],
         ['Jan 2010',    890,            '20%',                  900,    '15%',                  1000],
         ['Jan 2011',    1100,           '20%',                  1000,   '15%',                  1000],
         ['Jan 2012',    1000,           '20%',                  1050,   '15%',                  1000],
@@ -496,8 +497,9 @@ function drawVisualization() {
         //title: 'Company Performance',
         hAxis: {title: 'Years/Time',  titleTextStyle: {color: '#000'}},
         vAxis: {minValue: 0, title:'Sales(Tk)'},
-        //curveType:'function'
         //isStacked: 'percent',
+        curveType:'function',
+        intervals: { 'style':'area' },
         series:{
             0:{ pointSize:7},
             1:{ pointSize:7},
@@ -539,3 +541,7 @@ function drawVisualization() {
     chart.draw(data_deficit, options_deficit);
 
 }
+// Green : 1a8763
+// Red : 871b47
+// Violet : 5c3292
+// gray : 999999
