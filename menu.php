@@ -20,7 +20,7 @@
             <!-- END DASHBOARD -->
 
             <li>
-                <a href="sales_qty_1.php" class="active">
+                <a href="target_achivement_deficit.php" class="active">
                     <div class="gui-icon"><i class="glyphicon glyphicon-list-alt"></i></div>
                     <span class="title">Target Achivement - Deficit</span>
                 </a>
