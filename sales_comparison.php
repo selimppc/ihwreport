@@ -475,7 +475,7 @@
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------->
                     <div class="card">
                         <div class="row" id="site-activity">
-                            <h1 style="text-align: center; color: #400;"> Area Chart Section Start</h1>
+                            <h1 style="text-align: center; color: #400;"> Area Chart Section</h1>
                         </div>
                     </div>
 

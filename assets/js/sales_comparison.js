@@ -451,13 +451,15 @@ function drawVisualization() {
 
     var options_deficit = {
         //title: 'Company Performance',
-        hAxis: {title: 'Years/Time',  titleTextStyle: {color: '#333'}},
+        hAxis: {title: 'Years/Time',  titleTextStyle: {color: '#000'}},
         vAxis: {minValue: 0, title:'Sales(Tk)'},
         //curveType:'function'
+        //isStacked: 'percent',
         series:{
             0:{ pointSize:7},
             1:{ pointSize:7},
-            2:{ pointSize:3, color:'#040'}
+            //2:{ pointSize:5, color:'#040',lineDashStyle:[5, 1, 3]}
+            2:{ pointSize:5, color:'#040',lineDashStyle:[5, 5, 5]}
         },
         aggregationTarget: 'category',
         //selectionMode: 'multiple',
