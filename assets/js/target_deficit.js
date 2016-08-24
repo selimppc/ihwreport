@@ -346,10 +346,10 @@ function drawVisualization() {
         //curveType:'function'
         //isStacked: 'percent',
         series:{
-            0:{ pointSize:7},
+            0:{ pointSize:7, color:'#a00'},
             //1:{ pointSize:7},
             //2:{ pointSize:5, color:'#040',lineDashStyle:[5, 1, 3]}
-            1:{ pointSize:5, color:'#040',lineDashStyle:[5, 5, 5]}
+            1:{ pointSize:5, color:'#00a',lineDashStyle:[5, 5, 5]}
         },
         aggregationTarget: 'category',
         //selectionMode: 'multiple',
@@ -390,31 +390,31 @@ function drawVisualization() {
 
     var data_deficit = google.visualization.arrayToDataTable([
         ['Year',        'Achievement',  {role:'annotation'},    'Goal'],
-        ['Jan 2016',    550,            '2%',                  900],
-        ['Feb 2016',    1000,            '1%',                 1300],
-        ['Mar 2016',    1560,            '3%',                  1450],
-        ['Apr 2016',    1680,            '4%',                  1600],
-        ['May 2016',    1800,            '2%',                 2000],
-        ['Jun 2016',    1900,            '5%',                  2000],
-        ['Jul 2016',    2000,           '6%',                   1800],
-        ['Aug 2016',    2100,           '8%',                  1700],
-        ['Sep 2016',    1950,           '7%',                  1600],
-        ['Oct 2016',    2100,           '9%',                   1580],
-        ['Nov 2016',    2300,           '7%',                   1560],
-        ['Dec 2016',    2400,           '5%',                   1550]
+        ['Jan 2016',    100,            '2%',                  240],
+        ['Feb 2016',    180,            '1%',                 240],
+        ['Mar 2016',    250,            '3%',                  240],
+        ['Apr 2016',    298,            '4%',                  240],
+        ['May 2016',    350,            '2%',                 240],
+        ['Jun 2016',    340,            '5%',                  240],
+        ['Jul 2016',    300,           '2%',                   240],
+        ['Aug 2016',    270,           '1%',                  240],
+        ['Sep 2016',    240,           '3%',                  240],
+        ['Oct 2016',    280,           '1%',                   240],
+        ['Nov 2016',    340,           '4%',                   240],
+        ['Dec 2016',    360,           '5%',                   240]
     ]);
 
     var options_deficit = {
         title: 'Return : (Manufacture Defects)',
         hAxis: {title: 'Years/Time',  titleTextStyle: {color: '#000'}},
-        vAxis: {minValue: 0, maxValue:6500,title:'Return(Qty.)'},
+        vAxis: {minValue: 0, maxValue:1200,title:'Return(Qty.)'},
         //curveType:'function'
         //isStacked: 'percent',
         series:{
-            0:{ pointSize:7},
+            0:{ pointSize:7, color:'#060'},
             //1:{ pointSize:7},
             //2:{ pointSize:5, color:'#040',lineDashStyle:[5, 1, 3]}
-            1:{ pointSize:5, color:'#040',lineDashStyle:[5, 5, 5]}
+            1:{ pointSize:5, color:'#600',lineDashStyle:[5, 5, 5]}
         },
         aggregationTarget: 'category',
         //selectionMode: 'multiple',
