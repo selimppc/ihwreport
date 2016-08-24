@@ -165,7 +165,7 @@
                         </div>
                     </div>
 
-                    <!--===== For Target Achievement Deficit ==============================================================-->
+                    <!--===== For Delivery Qty. ==============================================================-->
                     <div class="card">
                         <div class="row" id="site-activity">
                             <div class="col-md-12">
@@ -205,6 +205,100 @@
                                         </tr>
                                         <tr><th>Stock Qty.</th><td>:</td><td>5,000,00</td></tr>
                                         <tr><th>Delivery Qty.</th><td>:</td><td>3,000,00</td></tr>
+
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--===== For Receipt Amount ==============================================================-->
+                    <div class="card">
+                        <div class="row" id="site-activity">
+                            <div class="col-md-12">
+                                <div class="col-md-9">
+                                    <!--<div class="card-head text-center">
+                                        <header>Target Achievement Deficit</header>
+                                    </div>-->
+                                    <div id="chart_receipt_amount" style="width: 100%; height: 500px;"></div>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <div class="card-head">
+                                        <header style="padding-left:0;">Status Over view</header>
+                                    </div>
+                                    <div class="extra-text-bottom">
+                                        <ul>
+                                            <li>Total Receipt Amount : 1,50,00000</li>
+                                            <li>Year : 2016</li>
+                                        </ul>
+                                    </div>
+                                    <table class="table">
+                                        <tr>
+                                            <th colspan="3">
+                                                Success(45.78%)<i class="md md-trending-up"></i>
+                                                <div class="progress progress-hairline">
+                                                    <div class="progress-bar progress-bar-primary-dark" style="width:89.78%"></div>
+                                                </div>
+                                            </th>
+                                        </tr>
+                                        <tr>
+                                            <th colspan="3">
+                                                Improvement(25.56%)<i class="md md-trending-up"></i>
+                                                <div class="progress progress-hairline">
+                                                    <div class="progress-bar progress-bar-primary-dark" style="width:72.56%"></div>
+                                                </div>
+                                            </th>
+                                        </tr>
+                                        <tr><th>Total Sales Amount</th><td>:</td><td>5,000,0000</td></tr>
+                                        <tr><th>Total Receipt Amount<</th><td>:</td><td>1,50,00000</td></tr>
+
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--===== For Return (Re-Sala) ==============================================================-->
+                    <div class="card">
+                        <div class="row" id="site-activity">
+                            <div class="col-md-12">
+                                <div class="col-md-9">
+                                    <!--<div class="card-head text-center">
+                                        <header>Target Achievement Deficit</header>
+                                    </div>-->
+                                    <div id="chart_receipt_amount" style="width: 100%; height: 500px;"></div>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <div class="card-head">
+                                        <header style="padding-left:0;">Status Over view</header>
+                                    </div>
+                                    <div class="extra-text-bottom">
+                                        <ul>
+                                            <li>Total Receipt Amount : 1,50,00000</li>
+                                            <li>Year : 2016</li>
+                                        </ul>
+                                    </div>
+                                    <table class="table">
+                                        <tr>
+                                            <th colspan="3">
+                                                Success(45.78%)<i class="md md-trending-up"></i>
+                                                <div class="progress progress-hairline">
+                                                    <div class="progress-bar progress-bar-primary-dark" style="width:89.78%"></div>
+                                                </div>
+                                            </th>
+                                        </tr>
+                                        <tr>
+                                            <th colspan="3">
+                                                Improvement(25.56%)<i class="md md-trending-up"></i>
+                                                <div class="progress progress-hairline">
+                                                    <div class="progress-bar progress-bar-primary-dark" style="width:72.56%"></div>
+                                                </div>
+                                            </th>
+                                        </tr>
+                                        <tr><th>Total Sales Amount</th><td>:</td><td>5,000,0000</td></tr>
+                                        <tr><th>Total Receipt Amount<</th><td>:</td><td>1,50,00000</td></tr>
 
                                     </table>
                                 </div>
