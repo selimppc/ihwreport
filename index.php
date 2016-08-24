@@ -89,7 +89,7 @@
                                                 </div>
                                                 <div class="panel-body no-padding-t text-center">
                                                     <h6 class="text-light-gray text-semibold text-xs text-center" style="margin:20px 0 10px 0;">Target Achivement - Deficit</h6>
-                                                    <a class="btn btn-primary" href="sales_qty_1.php">
+                                                    <a class="btn btn-primary" href="target_achivement_deficit.php">
                                                         <strong>Target Achivement - Deficit</strong>
                                                     </a>
 
