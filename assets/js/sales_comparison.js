@@ -29,6 +29,7 @@ function drawVisualization() {
     var options = {
         //title : 'Breakdown Graph',
         colors:['#494'],
+        //vAxis: {title: 'Sales(TK)', gridlines:{ count:20}},
         vAxis: {title: 'Sales(TK)'},
         hAxis: {title: 'Years / Time'},
         seriesType: 'bars',
@@ -64,7 +65,7 @@ function drawVisualization() {
         //title : 'Breakdown Graph',
         //colors:['#205','#609','#a0d'],
         colors:['#1a8763','#871b47','#999999'],
-        vAxis: {title: 'Sales(TK)'},
+        vAxis: {title: 'Sales(TK)', minValue:0},
         hAxis: {title: 'Years / Time'},
         seriesType: 'bars',
         bar: {groupWidth:'90%'},
